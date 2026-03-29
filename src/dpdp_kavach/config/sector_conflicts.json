@@ -18,5 +18,85 @@
     "summary": "Medical record continuity expectations require documented retention and secured access controls.",
     "resolution": "Apply role-based access, audit logs, and retention schedule with purpose map.",
     "source": "Telemedicine Practice Guidelines (25 March 2020)"
+  },
+  {
+    "sector": "edtech",
+    "regulation": "DPIIT Startup India & NCERT Digital Education Framework",
+    "regulation_section": "Student Data Governance",
+    "dpdp_section": "Sec 4 + Sec 8(7)",
+    "conflict_type": "sector_reg_stricter",
+    "summary": "Edtech platforms collecting student performance, behavioural, or biometric data face restrictions under DPIIT startup norms and NCERT guidelines that mandate purpose-limited, consented data use — conflicting with broad analytics pipelines.",
+    "resolution": "Implement purpose-limited data tiers; obtain explicit consent from guardians for minors; anonymise analytics data; document legal basis for each processing activity.",
+    "source": "DPIIT Startup India Data Guidelines; NCERT (2020) Digital Education Framework"
+  },
+  {
+    "sector": "ecommerce",
+    "regulation": "CGST Act 2017 + Consumer Protection Act 2019",
+    "regulation_section": "Accounts and Records (Sec 35-36 CGST); Consumer Data (CPA 2019)",
+    "dpdp_section": "Sec 8(7) erasure vs. Statutory retention",
+    "conflict_type": "sector_reg_stricter",
+    "summary": "CGST Act mandates retention of accounts and records for 72 months (6 years), while DPDP Sec 8(7) requires erasure upon purpose completion. Consumer Protection Act also implies data availability for dispute resolution.",
+    "resolution": "Partition data into CGST-liable records and non-liable records; apply legal-basis retention schedule for statutory records; use erasure only on non-compliant partitions.",
+    "source": "CGST Act 2017, Sec 35-36; Consumer Protection Act 2019, Sec 2(d)"
+  },
+  {
+    "sector": "insurance",
+    "regulation": "IRDAI (Insurance Act 1938, Regulations 2015)",
+    "regulation_section": "Policy Record Retention",
+    "dpdp_section": "Sec 8(7)",
+    "conflict_type": "sector_reg_stricter",
+    "summary": "IRDAI guidelines require insurers and third-party administrators to retain policy and claim records for at least 5 years after policy expiry — longer than typical DPDP purpose-completion timelines.",
+    "resolution": "Maintain legal-basis retention schedule; restrict archival access; document statutory retention justification; apply erasure only after statutory period lapses.",
+    "source": "IRDAI (Insurance Brokers) Regulations 2018, Schedule IV; IRDAI Act 1999"
+  },
+  {
+    "sector": "telecom",
+    "regulation": "Indian Telegraph Act 1885 + TRAI Act 1997",
+    "regulation_section": "Call Detail Record (CDR) Retention",
+    "dpdp_section": "Sec 4 + Sec 8(7)",
+    "conflict_type": "sector_reg_stricter",
+    "summary": "TRAI and lawful interception norms require telecom operators to retain CDRs for up to 2 years for security and regulatory compliance, conflicting with DPDP data minimisation and erasure principles.",
+    "resolution": "Segregate CDRs required for security/lawful interception from customer-facing data; apply security safeguards and restricted access on statutory-retention partitions; document legal basis.",
+    "source": "Indian Telegraph Act 1885, Sec 5(2); TRAI (CSP) Regulations 2018"
+  },
+  {
+    "sector": "hrtech",
+    "regulation": "EPF & MP Act 1952 + Shops & Establishments Act (State)",
+    "regulation_section": "Employee Record Maintenance",
+    "dpdp_section": "Sec 6 + Sec 8(7)",
+    "conflict_type": "sector_reg_stricter",
+    "summary": "HRMS and payroll systems holding employee Aadhaar, bank details, and attendance logs face conflict between statutory retention obligations (EPF records: life of member + 7 years; tax records: 8 years) and DPDP erasure rights.",
+    "resolution": "Apply statutory retention tiers for legal-compliance data; segregate non-statutory employee data (e.g., performance notes) for erasure on purpose completion; maintain retention schedule.",
+    "source": "EPF & MP Act 1952, Sec 36B; Income Tax Act 1961, Sec 149; Shops & Establishments Act (State variants)"
+  },
+  {
+    "sector": "realestate",
+    "regulation": "Registration Act 1908 + Indian Stamp Act 1899",
+    "regulation_section": "Document Retention",
+    "dpdp_section": "Sec 8(7)",
+    "conflict_type": "sector_reg_stricter",
+    "summary": "Property records, tenant agreements, and sale deeds must be retained for the lifetime of the property or indefinitely under Registration Act 1908, conflicting with DPDP erasure obligations for tenant/buyer personal data held in property management systems.",
+    "resolution": "Identify legally privileged property records requiring permanent or long-term retention; apply legal-basis override for those partitions; erase non-statutory personal data (e.g., tenant preferences) on purpose completion.",
+    "source": "Registration Act 1908; Indian Stamp Act 1899"
+  },
+  {
+    "sector": "logistics",
+    "regulation": "Motor Vehicles Act 1988 + GST Act 2017",
+    "regulation_section": "Transport Document & Invoice Retention",
+    "dpdp_section": "Sec 8(7)",
+    "conflict_type": "sector_reg_stricter",
+    "summary": "Goods transport operators must retain e-way bills, GST invoices, and driver records for GST compliance (6 years) and motor vehicle regulations (3 years minimum), conflicting with DPDP erasure timelines for consignee/consignor personal data in logistics management systems.",
+    "resolution": "Partition data by retention obligation: GST-liable records (6 years) vs. delivery-confirmation records (erasure after delivery acknowledgement); anonymise consignee contact data post-delivery.",
+    "source": "CGST Act 2017, Sec 35-36; Motor Vehicles Act 1988, Rule 138; e-Way Bill Rules 2018"
+  },
+  {
+    "sector": "media",
+    "regulation": "IT Rules 2021 (Intermediary Guidelines and Digital Media Ethics Code)",
+    "regulation_section": "Grievance Redressal & User Data (Rule 3(1)(d), Rule 7)",
+    "dpdp_section": "Sec 6 + Sec 8(7)",
+    "conflict_type": "sector_reg_stricter",
+    "summary": "Social media intermediaries and digital news platforms under IT Rules 2021 must maintain user grievance records and interaction logs for extended periods for compliance and legal traceability, conflicting with DPDP erasure timelines.",
+    "resolution": "Define legal-basis retention tiers for grievance and moderation records; apply access controls and audit logs; implement automated erasure for non-statutory user interaction data after purpose completion.",
+    "source": "IT Rules 2021, Rule 3(1)(d) and Rule 7; Information Technology Act 2000"
   }
 ]
