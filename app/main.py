@@ -248,7 +248,7 @@ def _translate_text(text: str, target_lang: str) -> tuple[str, str]:
     try:
         import json, urllib.request
 
-        payload = json.dumps(
+        batch_payload = json.dumps(
             {
                 "model": os.environ.get("INDIAN_MODEL_NAME", "sarvam-m"),
                 "messages": [
@@ -270,16 +270,12 @@ def _translate_text(text: str, target_lang: str) -> tuple[str, str]:
             },
             method="POST",
         )
-        with _req.urlopen(req, timeout=30) as resp:
+        with urllib.request.urlopen(req, timeout=30) as resp:
             data = json.loads(resp.read())
         reply = data["choices"][0]["message"]["content"].strip()
-        return JSONResponse({"reply": reply})
+        return reply, "ok"
     except Exception:
-        return JSONResponse(
-            {
-                "reply": "Sorry, I couldn't generate a response right now. Please try again."
-            }
-        )
+        return text, "error"
 
 
 TRANSLATIONS: dict[str, dict[str, str]] = {
@@ -1228,7 +1224,7 @@ async def translate(payload: dict[str, Any]) -> JSONResponse:
             }
         ).encode()
         req = _req.Request(
-            "https://api.sarvam.ai/chat/completions",
+            "https://api.sarvam.ai/v1/chat/completions",
             data=batch_payload,
             headers={
                 "Authorization": f"Bearer {SARVAM_API_KEY}",
