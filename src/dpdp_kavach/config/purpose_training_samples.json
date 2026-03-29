@@ -1,0 +1,14 @@
+[
+  {"text": "transactions utr upi ifsc amount payment_status", "label": "payments"},
+  {"text": "ledger settlement reconciliation beneficiary account_number", "label": "payments"},
+  {"text": "customer kyc pan aadhaar identity verification", "label": "kyc"},
+  {"text": "onboarding tax_id verification document_upload", "label": "kyc"},
+  {"text": "patient diagnosis prescription medical history vitals", "label": "care_delivery"},
+  {"text": "clinic visit symptoms treatment plan doctor_notes", "label": "care_delivery"},
+  {"text": "campaign click ad impression conversion analytics", "label": "marketing"},
+  {"text": "utm_source attribution event_tracking retargeting", "label": "marketing"},
+  {"text": "employee payroll attendance leave manager review", "label": "employment"},
+  {"text": "hr onboarding employee_id salary bank account", "label": "employment"},
+  {"text": "order delivery address support ticket invoice", "label": "service_delivery"},
+  {"text": "user profile mobile email preferences account", "label": "service_delivery"}
+]

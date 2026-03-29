@@ -1,0 +1,50 @@
+[
+  {
+    "id": "OBL_NOTICE",
+    "section": "Rule 3 + DPDP Sec 5",
+    "obligation_type": "notice",
+    "trigger_categories": ["personal", "sensitive"],
+    "description": "Provide clear notice with itemized personal data and purpose.",
+    "legal_basis": ["consent", "legitimate_use"]
+  },
+  {
+    "id": "OBL_CONSENT",
+    "section": "DPDP Sec 6",
+    "obligation_type": "consent",
+    "trigger_categories": ["personal", "sensitive"],
+    "description": "Collect free, specific, informed, unconditional, unambiguous consent.",
+    "legal_basis": ["consent"]
+  },
+  {
+    "id": "OBL_SECURITY",
+    "section": "Rule 6 + DPDP Sec 8",
+    "obligation_type": "security",
+    "trigger_categories": ["personal", "sensitive"],
+    "description": "Apply safeguards, logs, and processor contract protections.",
+    "legal_basis": ["security_safeguards"]
+  },
+  {
+    "id": "OBL_BREACH",
+    "section": "Rule 7",
+    "obligation_type": "breach",
+    "trigger_categories": ["personal", "sensitive"],
+    "description": "Notify affected Data Principals and Board within timelines.",
+    "legal_basis": ["incident_response"]
+  },
+  {
+    "id": "OBL_CHILDREN",
+    "section": "DPDP Sec 9",
+    "obligation_type": "children",
+    "trigger_categories": ["children"],
+    "description": "Verifiable parental consent and no behavioral tracking of children.",
+    "legal_basis": ["verifiable_consent"]
+  },
+  {
+    "id": "OBL_ERASURE",
+    "section": "DPDP Sec 8(7)",
+    "obligation_type": "retention_erasure",
+    "trigger_categories": ["personal", "sensitive"],
+    "description": "Erase personal data once purpose is completed unless law requires retention.",
+    "legal_basis": ["purpose_limitation"]
+  }
+]

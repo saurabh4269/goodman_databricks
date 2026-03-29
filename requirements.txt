@@ -1,0 +1,9 @@
+fastapi==0.116.1
+uvicorn==0.35.0
+python-multipart==0.0.20
+pandas==2.2.3
+pyspark==3.5.1
+mlflow==2.16.2
+faiss-cpu
+deltalake
+scikit-learn

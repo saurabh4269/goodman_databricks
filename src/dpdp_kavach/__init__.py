@@ -1,0 +1,5 @@
+"""DPDP Kavach package."""
+
+from .pipeline import CompliancePipeline
+
+__all__ = ["CompliancePipeline"]

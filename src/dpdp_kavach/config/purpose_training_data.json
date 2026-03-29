@@ -1,0 +1,2882 @@
+[
+  {
+    "text": "stg_verify fraud_score datetime none passport onboard business_type llpin",
+    "label": "kyc"
+  },
+  {
+    "text": "agg_onboarding face json pan fingerprint verification tax_id",
+    "label": "kyc"
+  },
+  {
+    "text": "raw_disbursement installment numeric health amount rrn auth_code refund_id",
+    "label": "payments"
+  },
+  {
+    "text": "agg_balance billing bigint device receiver payout split payer",
+    "label": "payments"
+  },
+  {
+    "text": "ods_icd10 ecg integer pan therapy emergency admission treatment bill",
+    "label": "care_delivery"
+  },
+  {
+    "text": "agg_dedupe ein datetime authentication passport fingerprint kyc_status identity",
+    "label": "kyc"
+  },
+  {
+    "text": "report_manager reimbursement datetime name ifsc_code firing rating emp sick",
+    "label": "employment"
+  },
+  {
+    "text": "fact_conversion preference numeric device consent whatsapp cpa offer watch_time",
+    "label": "marketing"
+  },
+  {
+    "text": "raw_copay ecg numeric location icd11 emergency icu ecg",
+    "label": "care_delivery"
+  },
+  {
+    "text": "ods_neft razorpay timestamp aadhaar UTR subscription credit disbursement account",
+    "label": "payments"
+  },
+  {
+    "text": "stg_lookalike whatsapp array name audience advertisement banner utm_campaign",
+    "label": "marketing"
+  },
+  {
+    "text": "stage_wallet balance array aadhaar mandate cart invoice autopay ifsc",
+    "label": "payments"
+  },
+  {
+    "text": "table_doctor weight varchar financial emergency medication drug hospital",
+    "label": "care_delivery"
+  },
+  {
+    "text": "ods_paytm credit numeric passport txn sender beneficiary payout",
+    "label": "payments"
+  },
+  {
+    "text": "dwh_lookalike email char aadhaar lookalike suppression sms view",
+    "label": "marketing"
+  },
+  {
+    "text": "ods_currency neft char passport refund_id phonepe credit",
+    "label": "payments"
+  },
+  {
+    "text": "analytics_ekyc_status fatca integer name tax sanctions cin aof",
+    "label": "kyc"
+  },
+  {
+    "text": "dwh_rating pan_num decimal email salary consultant hra hierarchy aadhaar_num",
+    "label": "employment"
+  },
+  {
+    "text": "report_emp epf char none manager uan bonus",
+    "label": "employment"
+  },
+  {
+    "text": "dw_fraud_score caml char aadhaar limit adhar tan",
+    "label": "kyc"
+  },
+  {
+    "text": "stage_timezone registration double name subscription ip tracking",
+    "label": "service_delivery"
+  },
+  {
+    "text": "dim_lab slot string financial pharmacy emergency gp",
+    "label": "care_delivery"
+  },
+  {
+    "text": "tbl_prescription discharge array financial chemist condition procedure pathology mri",
+    "label": "care_delivery"
+  },
+  {
+    "text": "tbl_ein driving nvarchar health screening caml liveness document account_type",
+    "label": "kyc"
+  },
+  {
+    "text": "agg_heart_rate procedure decimal passport icd11 history imaging ward diagnosis",
+    "label": "care_delivery"
+  },
+  {
+    "text": "report_tax risk_tier nvarchar phone aadhaar ein passport",
+    "label": "kyc"
+  },
+  {
+    "text": "stage_ein onboarding nvarchar device caml document tier verify",
+    "label": "kyc"
+  },
+  {
+    "text": "dw_uan employee text id_number hr compensation increment consultant gross",
+    "label": "employment"
+  },
+  {
+    "text": "tbl_registration shipping numeric email redeem address user geo browser",
+    "label": "service_delivery"
+  },
+  {
+    "text": "table_document caml nvarchar aadhaar adhar llpin fraud_score",
+    "label": "kyc"
+  },
+  {
+    "text": "analytics_refund_id disbursement char id_number gateway payment payee billing chargeback",
+    "label": "payments"
+  },
+  {
+    "text": "mart_org team datetime location exit rating staff team",
+    "label": "employment"
+  },
+  {
+    "text": "report_wishlist wishlist float phone feedback password issue shipping profile",
+    "label": "service_delivery"
+  },
+  {
+    "text": "mart_manager earned nvarchar none onboarding contractor aadhaar_num personnel consultant",
+    "label": "employment"
+  },
+  {
+    "text": "mart_bank amount decimal name wallet account reconciliation order billing",
+    "label": "payments"
+  },
+  {
+    "text": "table_ticket language uuid passport signup shipping language login enterprise",
+    "label": "service_delivery"
+  },
+  {
+    "text": "raw_okr hierarchy float id_number role probation personnel kpi",
+    "label": "employment"
+  },
+  {
+    "text": "rpt_otp email_pref integer pan profile points tracking",
+    "label": "service_delivery"
+  },
+  {
+    "text": "report_exclusion funnel integer authentication notification variant cpa utm_content click",
+    "label": "marketing"
+  },
+  {
+    "text": "report_pan account_type uuid location voter account_type pan liveness aml",
+    "label": "kyc"
+  },
+  {
+    "text": "rpt_staff esi varchar health attendance gross overtime",
+    "label": "employment"
+  },
+  {
+    "text": "dwh_bonus hra double phone rating ot clock_in manager",
+    "label": "employment"
+  },
+  {
+    "text": "dw_rx weight json email prescription surgery bill preauth temperature",
+    "label": "care_delivery"
+  },
+  {
+    "text": "dw_worker department nvarchar none payroll pto clock_in hra overtime",
+    "label": "employment"
+  },
+  {
+    "text": "analytics_razorpay account text none emi recurring reconcile settlement",
+    "label": "payments"
+  },
+  {
+    "text": "dw_timezone setting datetime pan rating issue enterprise",
+    "label": "service_delivery"
+  },
+  {
+    "text": "dw_history bed uuid authentication claim bp bill",
+    "label": "care_delivery"
+  },
+  {
+    "text": "fact_order premium timestamp financial push_pref plan enterprise churn",
+    "label": "service_delivery"
+  },
+  {
+    "text": "ods_churn discount double email notification coupon impression abandon click_rate",
+    "label": "marketing"
+  },
+  {
+    "text": "report_spo2 pathology char financial prescription referral icd10 diagnosis",
+    "label": "care_delivery"
+  },
+  {
+    "text": "tbl_bp pharmacy char device weight vitals icu spo2",
+    "label": "care_delivery"
+  },
+  {
+    "text": "table_points subscription double health churn subscription login address invoice",
+    "label": "service_delivery"
+  },
+  {
+    "text": "fact_experiment funnel integer financial impression creative utm_source",
+    "label": "marketing"
+  },
+  {
+    "text": "raw_liveness selfie decimal passport video face biometric risk_tier",
+    "label": "kyc"
+  },
+  {
+    "text": "analytics_incorporation tax string email pep ekyc face",
+    "label": "kyc"
+  },
+  {
+    "text": "raw_chargeback reconciliation uuid phone imps auth_code currency capture settlement",
+    "label": "payments"
+  },
+  {
+    "text": "dwh_history medication timestamp device medication emergency icd11 bed ultrasound",
+    "label": "care_delivery"
+  },
+  {
+    "text": "agg_face tier datetime demographic incorporation voter kyc_tier dedupe",
+    "label": "kyc"
+  },
+  {
+    "text": "agg_personalization notification double pan lift utm_content targeting email",
+    "label": "marketing"
+  },
+  {
+    "text": "tbl_ledger cart decimal email paytm phonepe balance txn_id",
+    "label": "payments"
+  },
+  {
+    "text": "mart_control creative nvarchar id_number view click impression churn recommendation",
+    "label": "marketing"
+  },
+  {
+    "text": "agg_referral_code refund numeric email setting sms_pref premium",
+    "label": "service_delivery"
+  },
+  {
+    "text": "analytics_cpm banner varchar aadhaar targeting unsubscribe ab_test engagement",
+    "label": "marketing"
+  },
+  {
+    "text": "ods_cohort suppression varchar email utm_term impression advertisement whatsapp utm_source",
+    "label": "marketing"
+  },
+  {
+    "text": "dw_control dni char id_number push experiment notification churn",
+    "label": "marketing"
+  },
+  {
+    "text": "analytics_neft dispute uuid device emi auth split invoice",
+    "label": "payments"
+  },
+  {
+    "text": "summary_casual personnel uuid aadhaar aadhaar_num confirmation esi designation manager",
+    "label": "employment"
+  },
+  {
+    "text": "tbl_aadhaar_num hr array pan rating vendor clock_out freelancer attendance",
+    "label": "employment"
+  },
+  {
+    "text": "report_dni lift decimal email utm_medium view utm_term",
+    "label": "marketing"
+  },
+  {
+    "text": "ods_phonepe emi text financial order_id installment recurring wallet",
+    "label": "payments"
+  },
+  {
+    "text": "ods_vitals booking date email treatment vitals pathology booking allergy",
+    "label": "care_delivery"
+  },
+  {
+    "text": "mart_payee split json passport void billing beneficiary txn reconciliation",
+    "label": "payments"
+  },
+  {
+    "text": "summary_lift click string health coupon cart_abandon ltv variant comment",
+    "label": "marketing"
+  },
+  {
+    "text": "table_imps imps float name reconciliation subscription cart",
+    "label": "payments"
+  },
+  {
+    "text": "fact_installment dispute varchar phone subscription upi ifsc dispute",
+    "label": "payments"
+  },
+  {
+    "text": "analytics_dedupe kyc_tier bigint name verify selfie voter",
+    "label": "kyc"
+  },
+  {
+    "text": "rpt_physician vitals nvarchar id_number icu imaging icd prescription spo2",
+    "label": "care_delivery"
+  },
+  {
+    "text": "rpt_net increment uuid financial hierarchy uan overtime onboarding emp",
+    "label": "employment"
+  },
+  {
+    "text": "summary_suppression ad timestamp location cpa churn attribution whatsapp",
+    "label": "marketing"
+  },
+  {
+    "text": "rpt_cohort ctr uuid pan audience funnel targeting",
+    "label": "marketing"
+  },
+  {
+    "text": "raw_refund payout timestamp location rrn rtgs emi recurring bank",
+    "label": "payments"
+  },
+  {
+    "text": "fact_support cancel array financial refund session user ticket",
+    "label": "service_delivery"
+  },
+  {
+    "text": "fact_language ip array id_number reactivation review enterprise",
+    "label": "service_delivery"
+  },
+  {
+    "text": "dwh_verification verification text passport tier tax_id entity_type",
+    "label": "kyc"
+  },
+  {
+    "text": "dw_txn order numeric phone upi order reconcile",
+    "label": "payments"
+  },
+  {
+    "text": "report_wfh employee integer name reporting increment manager pto",
+    "label": "employment"
+  },
+  {
+    "text": "table_confirmation esi boolean id_number remote hra vendor",
+    "label": "employment"
+  },
+  {
+    "text": "stg_cohort roas json phone recommendation experiment personalization ad clv",
+    "label": "marketing"
+  },
+  {
+    "text": "report_cin voter bigint pan passport license pan aadhaar",
+    "label": "kyc"
+  },
+  {
+    "text": "tbl_acquisition engagement decimal none creative recommendation lookalike ab_test",
+    "label": "marketing"
+  },
+  {
+    "text": "dw_free subscription datetime pan complaint support browser",
+    "label": "service_delivery"
+  },
+  {
+    "text": "stage_disease hospital string aadhaar ultrasound surgery condition copay gp",
+    "label": "care_delivery"
+  },
+  {
+    "text": "dim_ekyc_status pep double authentication llpin aadhaar selfie verify kyc_status",
+    "label": "kyc"
+  },
+  {
+    "text": "summary_tan customer varchar demographic tier kyc_tier gstin account_type entity_type",
+    "label": "kyc"
+  },
+  {
+    "text": "dw_wishlist redeem float passport refresh cart voucher",
+    "label": "service_delivery"
+  },
+  {
+    "text": "summary_video sanctions uuid id_number onboard selfie entity_type pep form_a",
+    "label": "kyc"
+  },
+  {
+    "text": "fact_reconcile txn_id string biometric phonepe dispute beneficiary rtgs",
+    "label": "payments"
+  },
+  {
+    "text": "stage_control consent integer financial conversion like persona",
+    "label": "marketing"
+  },
+  {
+    "text": "mart_notification_pref customer uuid health downgrade coupon points",
+    "label": "service_delivery"
+  },
+  {
+    "text": "raw_order subscription text name login ticket consent_pref rating customer",
+    "label": "service_delivery"
+  },
+  {
+    "text": "agg_bp gp numeric pan appointment prognosis specialist lab",
+    "label": "care_delivery"
+  },
+  {
+    "text": "table_redeem coupon uuid id_number cancel customer upgrade rating issue",
+    "label": "service_delivery"
+  },
+  {
+    "text": "summary_patient bp bigint aadhaar radiology ultrasound dosage bed procedure",
+    "label": "care_delivery"
+  },
+  {
+    "text": "ods_pharmacy height boolean aadhaar xray ward referral copay",
+    "label": "care_delivery"
+  },
+  {
+    "text": "dw_refund free float passport setting delivery reward",
+    "label": "service_delivery"
+  },
+  {
+    "text": "dw_drug icu json email heart_rate patient physician icd preauth",
+    "label": "care_delivery"
+  },
+  {
+    "text": "report_icd10 appointment datetime id_number referrer booking authorization",
+    "label": "care_delivery"
+  },
+  {
+    "text": "report_slot copay integer authentication icd xray treatment icd11 diagnosis",
+    "label": "care_delivery"
+  },
+  {
+    "text": "report_caml aml numeric authentication ein kyc_status entity_type",
+    "label": "kyc"
+  },
+  {
+    "text": "raw_imps payer integer health auth_code transaction autopay account paytm",
+    "label": "payments"
+  },
+  {
+    "text": "tbl_risk_tier aadhaar date authentication aadhaar verify kyc_status business_type ein",
+    "label": "kyc"
+  },
+  {
+    "text": "dim_selfie caml json biometric tax_id gstin fingerprint",
+    "label": "kyc"
+  },
+  {
+    "text": "stage_risk_tier selfie varchar passport ekyc_status risk_tier dl selfie",
+    "label": "kyc"
+  },
+  {
+    "text": "summary_video llpin bigint device pep fingerprint license",
+    "label": "kyc"
+  },
+  {
+    "text": "dim_rrn invoice datetime name credit settlement beneficiary",
+    "label": "payments"
+  },
+  {
+    "text": "table_credit settlement varchar authentication settlement stripe debit currency",
+    "label": "payments"
+  },
+  {
+    "text": "fact_ledger phonepe boolean passport account payout reconcile refund_id",
+    "label": "payments"
+  },
+  {
+    "text": "mart_downgrade login integer email coupon registration consent_pref",
+    "label": "service_delivery"
+  },
+  {
+    "text": "table_consent offer decimal biometric churn in_app cart_abandon email",
+    "label": "marketing"
+  },
+  {
+    "text": "agg_onboard llpin array device fingerprint ekyc business_type form_a",
+    "label": "kyc"
+  },
+  {
+    "text": "mart_prognosis prognosis decimal email procedure weight icu specialist therapy",
+    "label": "care_delivery"
+  },
+  {
+    "text": "fact_selfie account_type boolean health identity selfie aml license consent",
+    "label": "kyc"
+  },
+  {
+    "text": "ods_condition clinic float phone pharmacy icu disease lab spo2",
+    "label": "care_delivery"
+  },
+  {
+    "text": "summary_bed ecg bigint biometric dosage clinic preauth vitals claim",
+    "label": "care_delivery"
+  },
+  {
+    "text": "ods_department reporting decimal name resignation termination variable vendor",
+    "label": "employment"
+  },
+  {
+    "text": "analytics_treatment icu nvarchar location therapy radiology doctor rx claim",
+    "label": "care_delivery"
+  },
+  {
+    "text": "summary_resolution cart char none shipping reactivation delivery geo",
+    "label": "service_delivery"
+  },
+  {
+    "text": "summary_ab_test funnel date none conversion roas retention",
+    "label": "marketing"
+  },
+  {
+    "text": "raw_shift department string name remote team resignation personnel pto",
+    "label": "employment"
+  },
+  {
+    "text": "summary_banner lift varchar passport coupon conversion utm_medium utm_content utm_campaign",
+    "label": "marketing"
+  },
+  {
+    "text": "stg_ctr offer datetime email discount attribution recommendation",
+    "label": "marketing"
+  },
+  {
+    "text": "table_weight diagnostic timestamp financial bp pathology treatment",
+    "label": "care_delivery"
+  },
+  {
+    "text": "fact_document kyc decimal device cin crs customer",
+    "label": "kyc"
+  },
+  {
+    "text": "tbl_disbursement merchant char location cart currency checkout split beneficiary",
+    "label": "payments"
+  },
+  {
+    "text": "analytics_aml face uuid financial onboard limit form_a passport",
+    "label": "kyc"
+  },
+  {
+    "text": "report_payee balance numeric device split settlement autopay installment neft",
+    "label": "payments"
+  },
+  {
+    "text": "agg_wallet reconcile char location payee chargeback refund razorpay",
+    "label": "payments"
+  },
+  {
+    "text": "stage_order_id refund string email beneficiary gateway refund auth payout",
+    "label": "payments"
+  },
+  {
+    "text": "stg_resolution language datetime passport free registration premium",
+    "label": "service_delivery"
+  },
+  {
+    "text": "dw_weight slot integer location diagnostic referral surgery insurance ultrasound",
+    "label": "care_delivery"
+  },
+  {
+    "text": "stg_fingerprint passport json device verify tan account_type",
+    "label": "kyc"
+  },
+  {
+    "text": "table_gp rx boolean email ultrasound ecg temperature patient",
+    "label": "care_delivery"
+  },
+  {
+    "text": "dw_limit tan decimal id_number crs account_type consent ekyc_status",
+    "label": "kyc"
+  },
+  {
+    "text": "summary_cart status nvarchar aadhaar sms_pref push_pref customer token account",
+    "label": "service_delivery"
+  },
+  {
+    "text": "analytics_UTR txn_id datetime name credit amount gateway installment mandate",
+    "label": "payments"
+  },
+  {
+    "text": "raw_conversion dni char email cpm audience targeting",
+    "label": "marketing"
+  },
+  {
+    "text": "agg_risk_tier onboarding float biometric tax identity pep aml",
+    "label": "kyc"
+  },
+  {
+    "text": "rpt_issue plan text aadhaar delivery shipping redeem",
+    "label": "service_delivery"
+  },
+  {
+    "text": "fact_booking bmi integer pan history diagnosis clinic",
+    "label": "care_delivery"
+  },
+  {
+    "text": "tbl_utm_medium ltv array biometric cpa coupon push lookalike",
+    "label": "marketing"
+  },
+  {
+    "text": "report_chargeback settlement double biometric payout refund_id reconciliation merchant",
+    "label": "payments"
+  },
+  {
+    "text": "report_clock_out manager bigint passport contractor reimbursement role shift review",
+    "label": "employment"
+  },
+  {
+    "text": "dw_pincode setting double health token referral_code statement pincode tracking",
+    "label": "service_delivery"
+  },
+  {
+    "text": "report_verify face varchar passport video verify llpin",
+    "label": "kyc"
+  },
+  {
+    "text": "ods_holiday rating date pan uan emp timesheet remote overtime",
+    "label": "employment"
+  },
+  {
+    "text": "ods_txn_id reconcile timestamp aadhaar installment void payer neft",
+    "label": "payments"
+  },
+  {
+    "text": "fact_dni dni bigint device consent personalization utm_medium cpc campaign",
+    "label": "marketing"
+  },
+  {
+    "text": "agg_coverage discharge char none slot mri procedure",
+    "label": "care_delivery"
+  },
+  {
+    "text": "dw_view ab_test numeric biometric open_rate conversion cohort cart_abandon sms",
+    "label": "marketing"
+  },
+  {
+    "text": "stg_shift hr array device ot aadhaar_num freelancer leave",
+    "label": "employment"
+  },
+  {
+    "text": "fact_login pincode numeric name location exchange sms_pref push_pref",
+    "label": "service_delivery"
+  },
+  {
+    "text": "summary_admission bed uuid location authorization imaging physician",
+    "label": "care_delivery"
+  },
+  {
+    "text": "rpt_fraud_score verification json location onboard dl fraud_score",
+    "label": "kyc"
+  },
+  {
+    "text": "dwh_gstin business_type char health tier caml onboard ekyc incorporation",
+    "label": "kyc"
+  },
+  {
+    "text": "ods_ad ab_test array none whatsapp like roas recommendation",
+    "label": "marketing"
+  },
+  {
+    "text": "ods_icu weight array health appointment height specialist copay rx",
+    "label": "care_delivery"
+  },
+  {
+    "text": "analytics_aml fraud_score numeric passport kyc_status dl video crs",
+    "label": "kyc"
+  },
+  {
+    "text": "rpt_slot bmi array phone allergy icd heart_rate",
+    "label": "care_delivery"
+  },
+  {
+    "text": "ods_ot pf datetime health variable manager designation consultant emp",
+    "label": "employment"
+  },
+  {
+    "text": "stage_notification_pref premium numeric aadhaar token receipt feedback return",
+    "label": "service_delivery"
+  },
+  {
+    "text": "analytics_refund address float id_number statement tier return review",
+    "label": "service_delivery"
+  },
+  {
+    "text": "dim_ledger account numeric pan checkout receiver txn_id",
+    "label": "payments"
+  },
+  {
+    "text": "ods_slot icu date email icu xray disease weight imaging",
+    "label": "care_delivery"
+  },
+  {
+    "text": "dim_support enterprise json pan premium points customer otp tracking",
+    "label": "service_delivery"
+  },
+  {
+    "text": "stg_aadhaar_num reimbursement datetime location exit pan_num uan review promotion",
+    "label": "employment"
+  },
+  {
+    "text": "analytics_points registration numeric passport ip support order",
+    "label": "service_delivery"
+  },
+  {
+    "text": "mart_personalization click string none audience unsubscribe cohort discount",
+    "label": "marketing"
+  },
+  {
+    "text": "fact_cpc creative boolean none impression utm_content abandon view",
+    "label": "marketing"
+  },
+  {
+    "text": "raw_ot termination integer location attendance reimbursement bank_ac",
+    "label": "employment"
+  },
+  {
+    "text": "stg_verification gstin double device voter passport pan business_type",
+    "label": "kyc"
+  },
+  {
+    "text": "report_balance disbursement decimal location payee checkout subscription",
+    "label": "payments"
+  },
+  {
+    "text": "summary_ctc appraisal boolean biometric attendance timesheet wfh clock_in",
+    "label": "employment"
+  },
+  {
+    "text": "stg_kyc_tier onboard nvarchar health incorporation identity selfie caml video",
+    "label": "kyc"
+  },
+  {
+    "text": "raw_stripe amount nvarchar demographic order_id settlement debit payer",
+    "label": "payments"
+  },
+  {
+    "text": "table_allowance timesheet integer health staff overtime bonus casual",
+    "label": "employment"
+  },
+  {
+    "text": "fact_balance billing nvarchar device recurring phonepe debit gateway auth",
+    "label": "payments"
+  },
+  {
+    "text": "ods_utm_campaign engagement float device comment utm_term persona sms clv",
+    "label": "marketing"
+  },
+  {
+    "text": "dw_lookalike creative text financial exclusion ctr push",
+    "label": "marketing"
+  },
+  {
+    "text": "report_cpa audience varchar aadhaar targeting utm_campaign utm_source cart_abandon",
+    "label": "marketing"
+  },
+  {
+    "text": "agg_incorporation business_type json aadhaar gstin risk_tier cin",
+    "label": "kyc"
+  },
+  {
+    "text": "raw_bed condition text passport coverage allergy diagnosis prognosis ct",
+    "label": "care_delivery"
+  },
+  {
+    "text": "stg_termination ot numeric health firing employee consultant department",
+    "label": "employment"
+  },
+  {
+    "text": "raw_physician claim double passport discharge vitals authorization",
+    "label": "care_delivery"
+  },
+  {
+    "text": "stage_settle stripe text authentication settlement autopay disbursement",
+    "label": "payments"
+  },
+  {
+    "text": "ods_targeting discount float aadhaar creative click abandon cpa",
+    "label": "marketing"
+  },
+  {
+    "text": "ods_receiver reconciliation decimal biometric payment emi ledger refund payout",
+    "label": "payments"
+  },
+  {
+    "text": "mart_account refund_id decimal authentication currency order_id dispute",
+    "label": "payments"
+  },
+  {
+    "text": "stg_reactivation token varchar device browser account device",
+    "label": "service_delivery"
+  },
+  {
+    "text": "stg_license video numeric financial ekyc customer entity_type video",
+    "label": "kyc"
+  },
+  {
+    "text": "rpt_org designation char email shift timesheet uan onboarding",
+    "label": "employment"
+  },
+  {
+    "text": "agg_shift leave string device employee ifsc_code deduction department sick",
+    "label": "employment"
+  },
+  {
+    "text": "summary_dosage dosage date passport chemist coverage bill",
+    "label": "care_delivery"
+  },
+  {
+    "text": "table_license face varchar none cin driving account_type",
+    "label": "kyc"
+  },
+  {
+    "text": "stage_unsubscribe campaign timestamp authentication advertisement cpa engagement acquisition whatsapp",
+    "label": "marketing"
+  },
+  {
+    "text": "summary_crs document numeric id_number fraud_score selfie driving consent",
+    "label": "kyc"
+  },
+  {
+    "text": "raw_pan_num confirmation uuid authentication emp net promotion termination wfh",
+    "label": "employment"
+  },
+  {
+    "text": "fact_password refresh bigint authentication user consent_pref subscription",
+    "label": "service_delivery"
+  },
+  {
+    "text": "fact_cpc offer text id_number banner unsubscribe click sms utm_campaign",
+    "label": "marketing"
+  },
+  {
+    "text": "summary_currency cart date aadhaar phonepe txn order",
+    "label": "payments"
+  },
+  {
+    "text": "agg_utm_campaign clv array biometric lookalike advertisement cpa utm_term segment",
+    "label": "marketing"
+  },
+  {
+    "text": "raw_conversion advertisement date name persona roas abandon share cpc",
+    "label": "marketing"
+  },
+  {
+    "text": "report_bp medication date biometric claim bp mri ct treatment",
+    "label": "care_delivery"
+  },
+  {
+    "text": "dwh_clock_out pf uuid phone compensation staff consultant worker",
+    "label": "employment"
+  },
+  {
+    "text": "fact_bp weight text health bed imaging ecg pathology",
+    "label": "care_delivery"
+  },
+  {
+    "text": "rpt_push utm_term numeric location offer sms comment funnel roas",
+    "label": "marketing"
+  },
+  {
+    "text": "mart_vitals surgery text demographic ward mri pharmacy lab",
+    "label": "care_delivery"
+  },
+  {
+    "text": "dw_settlement order_id nvarchar health void payer mandate",
+    "label": "payments"
+  },
+  {
+    "text": "table_language consent_pref datetime authentication invoice refresh location notification_pref premium",
+    "label": "service_delivery"
+  },
+  {
+    "text": "summary_gstin ein nvarchar pan sanctions ekyc aadhaar",
+    "label": "kyc"
+  },
+  {
+    "text": "agg_emi order nvarchar demographic txn_id neft auth",
+    "label": "payments"
+  },
+  {
+    "text": "ods_hr appraisal timestamp demographic team shift aadhaar_num",
+    "label": "employment"
+  },
+  {
+    "text": "tbl_reconciliation payer float phone debit order_id recurring",
+    "label": "payments"
+  },
+  {
+    "text": "raw_clock_in attendance bigint financial pto wfh timesheet sick holiday",
+    "label": "employment"
+  },
+  {
+    "text": "dwh_okr payroll varchar pan esi uan gross tds freelancer",
+    "label": "employment"
+  },
+  {
+    "text": "summary_sms email varchar health sms ab_test recommendation control watch_time",
+    "label": "marketing"
+  },
+  {
+    "text": "dwh_receipt review bigint email signup shipping enterprise referral_code setting",
+    "label": "service_delivery"
+  },
+  {
+    "text": "rpt_order tracking date authentication reward support cancel delivery issue",
+    "label": "service_delivery"
+  },
+  {
+    "text": "agg_personalization share array location cpa click_rate coupon variant",
+    "label": "marketing"
+  },
+  {
+    "text": "mart_admission icu datetime name mri referral allergy ward copay",
+    "label": "care_delivery"
+  },
+  {
+    "text": "dim_UTR autopay array aadhaar credit ifsc vpa",
+    "label": "payments"
+  },
+  {
+    "text": "dim_ctc ifsc_code bigint financial review appraisal hra hr",
+    "label": "employment"
+  },
+  {
+    "text": "dim_emi capture json passport dispute rrn neft order txn_id",
+    "label": "payments"
+  },
+  {
+    "text": "ods_free status char id_number wishlist receipt return setting tier",
+    "label": "service_delivery"
+  },
+  {
+    "text": "table_receipt shipping json name loyalty signup refresh",
+    "label": "service_delivery"
+  },
+  {
+    "text": "mart_dosage doctor double id_number pharmacy drug referral bill",
+    "label": "care_delivery"
+  },
+  {
+    "text": "summary_icu booking nvarchar aadhaar condition xray booking",
+    "label": "care_delivery"
+  },
+  {
+    "text": "stg_address tracking double financial free receipt upgrade",
+    "label": "service_delivery"
+  },
+  {
+    "text": "agg_screening voter uuid aadhaar identity verification llpin ekyc",
+    "label": "kyc"
+  },
+  {
+    "text": "fact_recommendation control datetime email clv dni churn like ad",
+    "label": "marketing"
+  },
+  {
+    "text": "table_payee credit text id_number payment cart txn debit wallet",
+    "label": "payments"
+  },
+  {
+    "text": "rpt_amount balance double phone receiver upi payout split",
+    "label": "payments"
+  },
+  {
+    "text": "ods_hospital drug date demographic hospital icu gp",
+    "label": "care_delivery"
+  },
+  {
+    "text": "tbl_signup ticket json aadhaar browser address plan account",
+    "label": "service_delivery"
+  },
+  {
+    "text": "rpt_firing firing string financial timesheet salary department",
+    "label": "employment"
+  },
+  {
+    "text": "summary_paytm receiver decimal email UTR transaction rrn cart txn_id",
+    "label": "payments"
+  },
+  {
+    "text": "fact_onboard aof timestamp pan tier kyc tax business_type",
+    "label": "kyc"
+  },
+  {
+    "text": "rpt_reconcile ledger timestamp name refund_id payee autopay amount",
+    "label": "payments"
+  },
+  {
+    "text": "stg_plan consent_pref integer id_number login status loyalty invoice rating",
+    "label": "service_delivery"
+  },
+  {
+    "text": "stage_screening aadhaar text email kyc_tier video limit pep sanctions",
+    "label": "kyc"
+  },
+  {
+    "text": "summary_llpin aof array authentication onboard consent verify dl aof",
+    "label": "kyc"
+  },
+  {
+    "text": "stg_booking clinic array name admission xray ecg therapy",
+    "label": "care_delivery"
+  },
+  {
+    "text": "dim_debit txn_id text financial reconcile settle split billing void",
+    "label": "payments"
+  },
+  {
+    "text": "table_sick ifsc_code boolean passport firing hr appraisal gross",
+    "label": "employment"
+  },
+  {
+    "text": "table_token referral_code text phone preference reactivation shipping enterprise timezone",
+    "label": "service_delivery"
+  },
+  {
+    "text": "analytics_doctor ultrasound date email bed referral diagnostic lab",
+    "label": "care_delivery"
+  },
+  {
+    "text": "agg_appraisal emp integer id_number deduction manager remote emp",
+    "label": "employment"
+  },
+  {
+    "text": "analytics_license tier text passport limit aof fraud_score",
+    "label": "kyc"
+  },
+  {
+    "text": "summary_points address uuid health registration language setting invoice receipt",
+    "label": "service_delivery"
+  },
+  {
+    "text": "fact_esi overtime double passport appraisal net ctc ifsc_code salary",
+    "label": "employment"
+  },
+  {
+    "text": "rpt_account_type adhar text health document caml aml passport account_type",
+    "label": "kyc"
+  },
+  {
+    "text": "report_invoice invoice timestamp none registration rating account language push_pref",
+    "label": "service_delivery"
+  },
+  {
+    "text": "stage_cpa utm_medium double id_number open_rate churn whatsapp lift ad",
+    "label": "marketing"
+  },
+  {
+    "text": "tbl_user free text device rating status device sms_pref downgrade",
+    "label": "service_delivery"
+  },
+  {
+    "text": "dwh_os rating date biometric complaint timezone wishlist sms_pref",
+    "label": "service_delivery"
+  },
+  {
+    "text": "dw_points browser uuid name upgrade location receipt",
+    "label": "service_delivery"
+  },
+  {
+    "text": "report_hr earned array phone timesheet role holiday",
+    "label": "employment"
+  },
+  {
+    "text": "tbl_support browser timestamp name loyalty ip invoice account registration",
+    "label": "service_delivery"
+  },
+  {
+    "text": "ods_cart razorpay timestamp pan paytm refund_id account",
+    "label": "payments"
+  },
+  {
+    "text": "mart_cart address integer device redeem reward receipt browser profile",
+    "label": "service_delivery"
+  },
+  {
+    "text": "rpt_drug icu double aadhaar specialist weight procedure icu allergy",
+    "label": "care_delivery"
+  },
+  {
+    "text": "stage_payout ledger float health installment emi beneficiary ledger capture",
+    "label": "payments"
+  },
+  {
+    "text": "dwh_rx medication integer location appointment diagnostic clinic xray bmi",
+    "label": "care_delivery"
+  },
+  {
+    "text": "report_fatca form_a boolean none tan passport document video",
+    "label": "kyc"
+  },
+  {
+    "text": "table_gstin tax boolean passport dl caml biometric",
+    "label": "kyc"
+  },
+  {
+    "text": "stg_like engagement timestamp none notification retention open_rate utm_medium",
+    "label": "marketing"
+  },
+  {
+    "text": "dwh_team review decimal phone overtime resignation tds pan_num allowance",
+    "label": "employment"
+  },
+  {
+    "text": "fact_ledger cart varchar authentication imps installment neft",
+    "label": "payments"
+  },
+  {
+    "text": "stage_phonepe invoice datetime demographic rtgs mandate chargeback installment",
+    "label": "payments"
+  },
+  {
+    "text": "agg_account_type biometric text email form_a verify selfie video",
+    "label": "kyc"
+  },
+  {
+    "text": "mart_tier password float phone resolution login statement customer otp",
+    "label": "service_delivery"
+  },
+  {
+    "text": "mart_bonus onboarding decimal health clock_in overtime uan org leave",
+    "label": "employment"
+  },
+  {
+    "text": "raw_ifsc_code consultant date authentication ctc reimbursement confirmation",
+    "label": "employment"
+  },
+  {
+    "text": "tbl_resolution reactivation decimal phone profile wishlist session os push_pref",
+    "label": "service_delivery"
+  },
+  {
+    "text": "fact_procedure patient text device slot radiology icu bp",
+    "label": "care_delivery"
+  },
+  {
+    "text": "dim_confirmation contractor integer phone epf attendance bank_ac timesheet",
+    "label": "employment"
+  },
+  {
+    "text": "report_deduction holiday date id_number net contractor sick hra",
+    "label": "employment"
+  },
+  {
+    "text": "agg_account_type incorporation varchar id_number form_a incorporation verify identity crs",
+    "label": "kyc"
+  },
+  {
+    "text": "tbl_ledger ifsc decimal passport debit bank payout mandate payer",
+    "label": "payments"
+  },
+  {
+    "text": "table_amount txn_id array name receiver paytm settlement",
+    "label": "payments"
+  },
+  {
+    "text": "fact_dispute amount decimal authentication currency checkout invoice paytm installment",
+    "label": "payments"
+  },
+  {
+    "text": "stg_consent verification text aadhaar fraud_score risk_tier kyc_status caml",
+    "label": "kyc"
+  },
+  {
+    "text": "agg_discharge medication float passport authorization spo2 heart_rate",
+    "label": "care_delivery"
+  },
+  {
+    "text": "rpt_persona notification nvarchar pan churn consent roas cpm",
+    "label": "marketing"
+  },
+  {
+    "text": "mart_admission icd array id_number bed height weight",
+    "label": "care_delivery"
+  },
+  {
+    "text": "report_delivery otp date authentication otp review device push_pref email_pref",
+    "label": "service_delivery"
+  },
+  {
+    "text": "raw_ifsc_code overtime bigint none bank_ac ifsc_code holiday allowance personnel",
+    "label": "employment"
+  },
+  {
+    "text": "tbl_cart auth integer device beneficiary currency imps balance",
+    "label": "payments"
+  },
+  {
+    "text": "stage_browser preference float none delivery session password redeem coupon",
+    "label": "service_delivery"
+  },
+  {
+    "text": "agg_allowance employee double phone exit clock_out designation",
+    "label": "employment"
+  },
+  {
+    "text": "dim_bonus department float financial epf allowance okr hierarchy reporting",
+    "label": "employment"
+  },
+  {
+    "text": "raw_org exit timestamp phone team department earned",
+    "label": "employment"
+  },
+  {
+    "text": "rpt_mri referral char email referrer procedure weight",
+    "label": "care_delivery"
+  },
+  {
+    "text": "analytics_copay imaging varchar email admission referrer preauth vitals",
+    "label": "care_delivery"
+  },
+  {
+    "text": "agg_segment persona array passport advertisement experiment roas",
+    "label": "marketing"
+  },
+  {
+    "text": "table_complaint complaint integer financial browser upgrade address",
+    "label": "service_delivery"
+  },
+  {
+    "text": "agg_beneficiary billing datetime passport balance void refund",
+    "label": "payments"
+  },
+  {
+    "text": "tbl_ct bmi decimal health heart_rate coverage ward icu preauth",
+    "label": "care_delivery"
+  },
+  {
+    "text": "dwh_patient icd10 datetime pan ultrasound prognosis mri dosage",
+    "label": "care_delivery"
+  },
+  {
+    "text": "raw_authorization history varchar demographic allergy hospital drug",
+    "label": "care_delivery"
+  },
+  {
+    "text": "rpt_in_app recommendation timestamp device acquisition audience utm_term utm_source banner",
+    "label": "marketing"
+  },
+  {
+    "text": "analytics_radiology discharge array email icd spo2 height medication bill",
+    "label": "care_delivery"
+  },
+  {
+    "text": "dwh_tax dl char id_number tier limit incorporation pan onboard",
+    "label": "kyc"
+  },
+  {
+    "text": "dwh_leave rating array financial review esi designation rating",
+    "label": "employment"
+  },
+  {
+    "text": "rpt_emp pan_num decimal location ifsc_code ctc exit remote",
+    "label": "employment"
+  },
+  {
+    "text": "summary_employee timesheet integer passport gross compensation consultant ot okr",
+    "label": "employment"
+  },
+  {
+    "text": "ods_exit department bigint email esi confirmation emp reimbursement hierarchy",
+    "label": "employment"
+  },
+  {
+    "text": "ods_utm_source open_rate boolean aadhaar click clv exclusion",
+    "label": "marketing"
+  },
+  {
+    "text": "table_neft gateway float biometric capture recurring auth_code ifsc dispute",
+    "label": "payments"
+  },
+  {
+    "text": "stg_confirmation exit text name earned role bonus personnel",
+    "label": "employment"
+  },
+  {
+    "text": "mart_impression comment uuid passport ltv notification clv",
+    "label": "marketing"
+  },
+  {
+    "text": "agg_prognosis referrer text phone mri ultrasound icd11 ward",
+    "label": "care_delivery"
+  },
+  {
+    "text": "rpt_campaign consent timestamp authentication unsubscribe funnel click attribution ab_test",
+    "label": "marketing"
+  },
+  {
+    "text": "tbl_salary variable uuid aadhaar promotion clock_out earned leave firing",
+    "label": "employment"
+  },
+  {
+    "text": "stage_creative click double phone cohort open_rate variant",
+    "label": "marketing"
+  },
+  {
+    "text": "report_targeting utm_campaign bigint financial watch_time ab_test abandon like",
+    "label": "marketing"
+  },
+  {
+    "text": "report_recurring wallet text none credit checkout ifsc ledger refund_id",
+    "label": "payments"
+  },
+  {
+    "text": "summary_cpm unsubscribe text health retention engagement like",
+    "label": "marketing"
+  },
+  {
+    "text": "report_cin form_a timestamp email fraud_score verification cin crs fingerprint",
+    "label": "kyc"
+  },
+  {
+    "text": "analytics_emp employee json authentication promotion overtime confirmation",
+    "label": "employment"
+  },
+  {
+    "text": "report_fatca incorporation integer authentication video dedupe kyc_status aof voter",
+    "label": "kyc"
+  },
+  {
+    "text": "report_offer control nvarchar biometric cart_abandon recommendation notification",
+    "label": "marketing"
+  },
+  {
+    "text": "report_notification_pref os text email timezone feedback statement language session",
+    "label": "service_delivery"
+  },
+  {
+    "text": "agg_sanctions face json name cin tier incorporation license",
+    "label": "kyc"
+  },
+  {
+    "text": "summary_earned ifsc_code timestamp pan freelancer contractor employee consultant",
+    "label": "employment"
+  },
+  {
+    "text": "dim_height referrer bigint phone history treatment ultrasound spo2 weight",
+    "label": "care_delivery"
+  },
+  {
+    "text": "stage_treatment history float aadhaar therapy radiology rx insurance",
+    "label": "care_delivery"
+  },
+  {
+    "text": "summary_doctor disease date passport weight rx icu",
+    "label": "care_delivery"
+  },
+  {
+    "text": "mart_view utm_content float phone creative segment control",
+    "label": "marketing"
+  },
+  {
+    "text": "summary_ward appointment uuid pan chemist referral diagnostic",
+    "label": "care_delivery"
+  },
+  {
+    "text": "stg_resignation allowance decimal name clock_out casual esi attendance hra",
+    "label": "employment"
+  },
+  {
+    "text": "stg_screening fingerprint nvarchar email dedupe account_type consent",
+    "label": "kyc"
+  },
+  {
+    "text": "table_heart_rate temperature varchar name surgery authorization ct treatment",
+    "label": "care_delivery"
+  },
+  {
+    "text": "fact_refresh referral_code boolean passport support enterprise email_pref",
+    "label": "service_delivery"
+  },
+  {
+    "text": "fact_okr designation integer financial sick hierarchy role designation",
+    "label": "employment"
+  },
+  {
+    "text": "table_cpa utm_source json none banner notification targeting push",
+    "label": "marketing"
+  },
+  {
+    "text": "tbl_icu height string device imaging diagnostic bill",
+    "label": "care_delivery"
+  },
+  {
+    "text": "dw_order subscription nvarchar aadhaar autopay balance vpa beneficiary",
+    "label": "payments"
+  },
+  {
+    "text": "ods_allowance bank_ac nvarchar financial reimbursement epf contractor",
+    "label": "employment"
+  },
+  {
+    "text": "dwh_device notification_pref boolean financial tier rating coupon sms_pref",
+    "label": "service_delivery"
+  },
+  {
+    "text": "stg_aof identity varchar aadhaar onboard sanctions tax_id risk_tier",
+    "label": "kyc"
+  },
+  {
+    "text": "fact_pf ifsc_code uuid device freelancer performance shift human_resource",
+    "label": "employment"
+  },
+  {
+    "text": "tbl_bmi emergency decimal financial surgery icd doctor bmi",
+    "label": "care_delivery"
+  },
+  {
+    "text": "ods_heart_rate icd text location hospital mri referral icu authorization",
+    "label": "care_delivery"
+  },
+  {
+    "text": "dw_void wallet float phone rtgs bank transaction vpa",
+    "label": "payments"
+  },
+  {
+    "text": "dw_onboarding pf numeric financial bonus overtime aadhaar_num",
+    "label": "employment"
+  },
+  {
+    "text": "fact_chemist copay char email patient icu surgery icu",
+    "label": "care_delivery"
+  },
+  {
+    "text": "table_disbursement split char none merchant beneficiary auth txn_id",
+    "label": "payments"
+  },
+  {
+    "text": "dw_exclusion unsubscribe char aadhaar personalization click suppression",
+    "label": "marketing"
+  },
+  {
+    "text": "stg_chargeback upi varchar aadhaar rrn gateway txn_id payment",
+    "label": "payments"
+  },
+  {
+    "text": "rpt_statement signup char health loyalty account downgrade reward upgrade",
+    "label": "service_delivery"
+  },
+  {
+    "text": "report_tax_id fingerprint varchar biometric ekyc_status selfie tax_id",
+    "label": "kyc"
+  },
+  {
+    "text": "stg_browser exchange nvarchar name status receipt return",
+    "label": "service_delivery"
+  },
+  {
+    "text": "raw_utm_term comment date health push dni coupon",
+    "label": "marketing"
+  },
+  {
+    "text": "agg_adhar passport nvarchar authentication onboarding form_a kyc_status tax_id",
+    "label": "kyc"
+  },
+  {
+    "text": "ods_share control char demographic cpc retention preference banner",
+    "label": "marketing"
+  },
+  {
+    "text": "tbl_pan customer boolean id_number sanctions llpin kyc",
+    "label": "kyc"
+  },
+  {
+    "text": "dim_review shipping datetime phone points referral_code exchange",
+    "label": "service_delivery"
+  },
+  {
+    "text": "analytics_temperature icd11 double phone therapy heart_rate discharge icd",
+    "label": "care_delivery"
+  },
+  {
+    "text": "dw_emergency booking date pan weight allergy xray",
+    "label": "care_delivery"
+  },
+  {
+    "text": "ods_currency dispute text device debit currency beneficiary account",
+    "label": "payments"
+  },
+  {
+    "text": "dwh_ledger merchant array authentication cart billing checkout",
+    "label": "payments"
+  },
+  {
+    "text": "rpt_spo2 preauth char aadhaar weight therapy ct lab",
+    "label": "care_delivery"
+  },
+  {
+    "text": "agg_gross sick uuid authentication exit compensation esi worker firing",
+    "label": "employment"
+  },
+  {
+    "text": "agg_referral xray uuid health medication allergy xray icd10 vitals",
+    "label": "care_delivery"
+  },
+  {
+    "text": "dwh_aadhaar tier string name caml driving fingerprint biometric video",
+    "label": "kyc"
+  },
+  {
+    "text": "agg_tan aof varchar name aof face tax_id aml entity_type",
+    "label": "kyc"
+  },
+  {
+    "text": "table_attribution cart_abandon double email click_rate utm_medium coupon",
+    "label": "marketing"
+  },
+  {
+    "text": "rpt_condition icu datetime health slot icd10 bmi bed gp",
+    "label": "care_delivery"
+  },
+  {
+    "text": "table_preference lookalike numeric demographic ad retention abandon personalization",
+    "label": "marketing"
+  },
+  {
+    "text": "analytics_rating casual bigint phone ot promotion tds reimbursement consultant",
+    "label": "employment"
+  },
+  {
+    "text": "report_rx treatment uuid financial pathology hospital imaging",
+    "label": "care_delivery"
+  },
+  {
+    "text": "table_sms_pref profile array demographic login setting shipping refresh return",
+    "label": "service_delivery"
+  },
+  {
+    "text": "dwh_epf payroll numeric id_number compensation aadhaar_num confirmation attendance",
+    "label": "employment"
+  },
+  {
+    "text": "agg_sanctions tier nvarchar demographic form_a identity kyc_tier consent",
+    "label": "kyc"
+  },
+  {
+    "text": "agg_role hr json passport contractor department promotion",
+    "label": "employment"
+  },
+  {
+    "text": "analytics_hospital allergy decimal health rx copay gp ecg",
+    "label": "care_delivery"
+  },
+  {
+    "text": "raw_aadhaar ekyc array phone tax crs tax_id",
+    "label": "kyc"
+  },
+  {
+    "text": "analytics_condition vitals array pan booking allergy condition diagnosis",
+    "label": "care_delivery"
+  },
+  {
+    "text": "agg_icu temperature decimal financial medication allergy pharmacy ecg",
+    "label": "care_delivery"
+  },
+  {
+    "text": "dwh_roas sms datetime id_number impression sms email",
+    "label": "marketing"
+  },
+  {
+    "text": "tbl_subscription wallet uuid passport dispute mandate currency",
+    "label": "payments"
+  },
+  {
+    "text": "table_amount sender double phone account beneficiary cart order_id",
+    "label": "payments"
+  },
+  {
+    "text": "dwh_email_pref feedback nvarchar id_number tier order refund ticket",
+    "label": "service_delivery"
+  },
+  {
+    "text": "report_offer campaign double id_number roas ad watch_time campaign share",
+    "label": "marketing"
+  },
+  {
+    "text": "summary_rrn checkout string authentication sender phonepe transaction payee bank",
+    "label": "payments"
+  },
+  {
+    "text": "stg_dni ctr json authentication coupon banner ltv click_rate",
+    "label": "marketing"
+  },
+  {
+    "text": "table_referrer rx json location icu therapy weight hospital ecg",
+    "label": "care_delivery"
+  },
+  {
+    "text": "summary_profile free bigint pan os device registration push_pref",
+    "label": "service_delivery"
+  },
+  {
+    "text": "rpt_coupon profile float email refund consent_pref signup reactivation",
+    "label": "service_delivery"
+  },
+  {
+    "text": "rpt_razorpay dispute datetime location stripe phonepe gateway",
+    "label": "payments"
+  },
+  {
+    "text": "dwh_ekyc driving string none dl pan business_type pep",
+    "label": "kyc"
+  },
+  {
+    "text": "table_uan consultant char name tds aadhaar_num employee exit",
+    "label": "employment"
+  },
+  {
+    "text": "dim_UTR amount boolean email autopay order vpa reconciliation checkout",
+    "label": "payments"
+  },
+  {
+    "text": "summary_ctc hra varchar phone confirmation ctc termination kpi",
+    "label": "employment"
+  },
+  {
+    "text": "report_selfie limit text biometric caml tax_id face",
+    "label": "kyc"
+  },
+  {
+    "text": "summary_variable promotion decimal demographic kpi designation ot",
+    "label": "employment"
+  },
+  {
+    "text": "analytics_funnel watch_time char financial retention utm_term share",
+    "label": "marketing"
+  },
+  {
+    "text": "agg_kyc_tier screening datetime passport driving limit aml document",
+    "label": "kyc"
+  },
+  {
+    "text": "mart_acquisition whatsapp text name variant segment acquisition email",
+    "label": "marketing"
+  },
+  {
+    "text": "dw_registration token text biometric issue invoice account ip subscription",
+    "label": "service_delivery"
+  },
+  {
+    "text": "stage_stripe auth_code char authentication bank void installment stripe autopay",
+    "label": "payments"
+  },
+  {
+    "text": "report_abandon creative json id_number banner funnel click_rate",
+    "label": "marketing"
+  },
+  {
+    "text": "tbl_voucher delivery uuid authentication shipping premium notification_pref",
+    "label": "service_delivery"
+  },
+  {
+    "text": "agg_bank recurring varchar biometric reconcile cart balance installment amount",
+    "label": "payments"
+  },
+  {
+    "text": "fact_subscription cart decimal device split vpa paytm dispute",
+    "label": "payments"
+  },
+  {
+    "text": "fact_aadhaar_num holiday text financial designation org timesheet esi",
+    "label": "employment"
+  },
+  {
+    "text": "rpt_comment impression decimal pan preference push funnel",
+    "label": "marketing"
+  },
+  {
+    "text": "report_session timezone timestamp device plan delivery signup tier redeem",
+    "label": "service_delivery"
+  },
+  {
+    "text": "agg_staff remote varchar email hra pf bank_ac hr epf",
+    "label": "employment"
+  },
+  {
+    "text": "table_patient discharge nvarchar authentication temperature radiology medication doctor bp",
+    "label": "care_delivery"
+  },
+  {
+    "text": "stg_verify pan numeric biometric sanctions crs fraud_score llpin fingerprint",
+    "label": "kyc"
+  },
+  {
+    "text": "stg_upi payout array health amount invoice txn_id",
+    "label": "payments"
+  },
+  {
+    "text": "analytics_stripe bank date pan UTR ifsc subscription upi",
+    "label": "payments"
+  },
+  {
+    "text": "agg_verification license char financial form_a aadhaar kyc_tier",
+    "label": "kyc"
+  },
+  {
+    "text": "mart_designation designation uuid health promotion staff org deduction",
+    "label": "employment"
+  },
+  {
+    "text": "analytics_performance variable float id_number department manager worker confirmation",
+    "label": "employment"
+  },
+  {
+    "text": "fact_click_rate ad date location engagement notification persona",
+    "label": "marketing"
+  },
+  {
+    "text": "agg_chemist prognosis float email mri bed height xray",
+    "label": "care_delivery"
+  },
+  {
+    "text": "agg_ecg copay varchar aadhaar drug diagnosis doctor treatment prescription",
+    "label": "care_delivery"
+  },
+  {
+    "text": "report_roas utm_content float device utm_medium targeting ltv lift discount",
+    "label": "marketing"
+  },
+  {
+    "text": "dwh_ticket device text location loyalty login voucher customer device",
+    "label": "service_delivery"
+  },
+  {
+    "text": "mart_ctc pto array pan tds wfh ctc overtime",
+    "label": "employment"
+  },
+  {
+    "text": "mart_subscription transaction json phone debit merchant refund",
+    "label": "payments"
+  },
+  {
+    "text": "summary_entity_type crs boolean name customer ein fatca document",
+    "label": "kyc"
+  },
+  {
+    "text": "dim_pathology copay nvarchar health copay pathology preauth icd10",
+    "label": "care_delivery"
+  },
+  {
+    "text": "agg_ad utm_source uuid pan cart_abandon open_rate notification campaign offer",
+    "label": "marketing"
+  },
+  {
+    "text": "fact_upgrade browser timestamp location upgrade timezone ticket token resolution",
+    "label": "service_delivery"
+  },
+  {
+    "text": "summary_imaging coverage array biometric admission hospital bed xray",
+    "label": "care_delivery"
+  },
+  {
+    "text": "stage_staff designation decimal pan salary uan team leave pan_num",
+    "label": "employment"
+  },
+  {
+    "text": "rpt_delivery pincode timestamp passport cancel free device push_pref enterprise",
+    "label": "service_delivery"
+  },
+  {
+    "text": "analytics_tier incorporation char financial aadhaar limit license",
+    "label": "kyc"
+  },
+  {
+    "text": "table_profile refresh varchar biometric cancel email_pref refresh sms_pref delivery",
+    "label": "service_delivery"
+  },
+  {
+    "text": "analytics_worker ifsc_code boolean health termination freelancer hr ot leave",
+    "label": "employment"
+  },
+  {
+    "text": "dwh_attendance pf float name firing termination clock_in freelancer leave",
+    "label": "employment"
+  },
+  {
+    "text": "raw_cart_abandon creative decimal none creative whatsapp ltv click_rate",
+    "label": "marketing"
+  },
+  {
+    "text": "ods_shift bonus bigint email gross ctc salary confirmation",
+    "label": "employment"
+  },
+  {
+    "text": "dim_tax_id ekyc_status numeric biometric aof tax_id identity ekyc_status",
+    "label": "kyc"
+  },
+  {
+    "text": "analytics_video selfie varchar none gstin verify form_a verification",
+    "label": "kyc"
+  },
+  {
+    "text": "stage_gp preauth array demographic gp physician mri icu",
+    "label": "care_delivery"
+  },
+  {
+    "text": "report_manager pf char device termination hra ctc",
+    "label": "employment"
+  },
+  {
+    "text": "dw_selfie adhar float demographic onboard llpin business_type",
+    "label": "kyc"
+  },
+  {
+    "text": "agg_control sms datetime email push click_rate cpa dni",
+    "label": "marketing"
+  },
+  {
+    "text": "report_settlement stripe double none capture paytm reconcile chargeback",
+    "label": "payments"
+  },
+  {
+    "text": "tbl_tan aadhaar nvarchar health entity_type voter document ekyc",
+    "label": "kyc"
+  },
+  {
+    "text": "analytics_ad acquisition numeric name retention cpm notification",
+    "label": "marketing"
+  },
+  {
+    "text": "mart_manager okr float financial pf org bank_ac",
+    "label": "employment"
+  },
+  {
+    "text": "dim_ct authorization double demographic ward icd11 discharge",
+    "label": "care_delivery"
+  },
+  {
+    "text": "raw_verify limit uuid phone driving license incorporation account_type aadhaar",
+    "label": "kyc"
+  },
+  {
+    "text": "analytics_cin adhar integer id_number aml license document passport",
+    "label": "kyc"
+  },
+  {
+    "text": "stage_vendor pf date name pto leave deduction manager",
+    "label": "employment"
+  },
+  {
+    "text": "table_admission physician decimal phone ct hospital coverage",
+    "label": "care_delivery"
+  },
+  {
+    "text": "summary_conversion dni json demographic ad cpa roas notification cart_abandon",
+    "label": "marketing"
+  },
+  {
+    "text": "analytics_ward heart_rate decimal email medication copay ward admission",
+    "label": "care_delivery"
+  },
+  {
+    "text": "table_tds reimbursement varchar phone freelancer leave ctc",
+    "label": "employment"
+  },
+  {
+    "text": "mart_resignation designation json financial allowance attendance staff tds",
+    "label": "employment"
+  },
+  {
+    "text": "stage_refund browser double authentication ticket return pincode signup",
+    "label": "service_delivery"
+  },
+  {
+    "text": "dim_spo2 bp boolean none condition gp authorization",
+    "label": "care_delivery"
+  },
+  {
+    "text": "stg_crs onboarding uuid health ekyc document biometric tax",
+    "label": "kyc"
+  },
+  {
+    "text": "stage_notification cohort array demographic churn experiment clv click",
+    "label": "marketing"
+  },
+  {
+    "text": "tbl_personnel increment double authentication probation aadhaar_num clock_in resignation",
+    "label": "employment"
+  },
+  {
+    "text": "rpt_notification_pref loyalty datetime financial redeem downgrade cancel",
+    "label": "service_delivery"
+  },
+  {
+    "text": "stage_email_pref sms_pref bigint none issue customer receipt ip user",
+    "label": "service_delivery"
+  },
+  {
+    "text": "tbl_allergy condition string health insurance drug ultrasound ct medication",
+    "label": "care_delivery"
+  },
+  {
+    "text": "table_gstin kyc_status nvarchar id_number kyc_status selfie consent customer verification",
+    "label": "kyc"
+  },
+  {
+    "text": "tbl_screening ekyc numeric none tan dedupe limit",
+    "label": "kyc"
+  },
+  {
+    "text": "table_earned firing double health confirmation designation termination net ctc",
+    "label": "employment"
+  },
+  {
+    "text": "rpt_probation esi varchar email human_resource performance freelancer increment",
+    "label": "employment"
+  },
+  {
+    "text": "agg_status email_pref decimal device customer delivery login loyalty timezone",
+    "label": "service_delivery"
+  },
+  {
+    "text": "dim_pincode device float financial reactivation delivery shipping device complaint",
+    "label": "service_delivery"
+  },
+  {
+    "text": "fact_roas click string phone share utm_content discount",
+    "label": "marketing"
+  },
+  {
+    "text": "summary_free invoice boolean aadhaar upgrade session statement sms_pref",
+    "label": "service_delivery"
+  },
+  {
+    "text": "table_emp shift bigint biometric earned role aadhaar_num pto",
+    "label": "employment"
+  },
+  {
+    "text": "tbl_email_pref profile datetime location downgrade status tracking",
+    "label": "service_delivery"
+  },
+  {
+    "text": "fact_subscription invoice boolean passport subscription beneficiary payee UTR razorpay",
+    "label": "payments"
+  },
+  {
+    "text": "analytics_form_a biometric char email onboard cin kyc_tier",
+    "label": "kyc"
+  },
+  {
+    "text": "table_credit capture varchar id_number receiver currency settlement balance",
+    "label": "payments"
+  },
+  {
+    "text": "agg_specialist admission datetime financial xray clinic heart_rate",
+    "label": "care_delivery"
+  },
+  {
+    "text": "summary_ltv watch_time text biometric utm_campaign whatsapp abandon banner ad",
+    "label": "marketing"
+  },
+  {
+    "text": "agg_reward refresh char location return cart coupon enterprise",
+    "label": "service_delivery"
+  },
+  {
+    "text": "dwh_caml tax_id text health aml business_type crs kyc fingerprint",
+    "label": "kyc"
+  },
+  {
+    "text": "report_liveness document float location sanctions kyc_tier caml ekyc cin",
+    "label": "kyc"
+  },
+  {
+    "text": "report_refresh customer json passport review password order",
+    "label": "service_delivery"
+  },
+  {
+    "text": "stg_kpi contractor datetime financial review freelancer gross reimbursement",
+    "label": "employment"
+  },
+  {
+    "text": "stage_ctr conversion varchar authentication click cohort whatsapp",
+    "label": "marketing"
+  },
+  {
+    "text": "stg_admission ward timestamp financial icu xray treatment booking",
+    "label": "care_delivery"
+  },
+  {
+    "text": "fact_emergency ecg decimal financial imaging doctor bed icd11 prognosis",
+    "label": "care_delivery"
+  },
+  {
+    "text": "dim_verify document array biometric kyc aof aml pep dl",
+    "label": "kyc"
+  },
+  {
+    "text": "dw_identity dl uuid email video tax_id ekyc tier",
+    "label": "kyc"
+  },
+  {
+    "text": "rpt_balance split array passport razorpay imps amount upi debit",
+    "label": "payments"
+  },
+  {
+    "text": "dw_claim coverage double name diagnostic ecg physician appointment",
+    "label": "care_delivery"
+  },
+  {
+    "text": "ods_employee okr boolean authentication ot ifsc_code role gross hr",
+    "label": "employment"
+  },
+  {
+    "text": "stg_preauth history bigint id_number surgery prescription copay",
+    "label": "care_delivery"
+  },
+  {
+    "text": "agg_autopay autopay decimal id_number sender dispute auth_code bank txn_id",
+    "label": "payments"
+  },
+  {
+    "text": "raw_retention unsubscribe decimal location share personalization lookalike whatsapp offer",
+    "label": "marketing"
+  },
+  {
+    "text": "summary_merchant neft datetime demographic emi billing txn",
+    "label": "payments"
+  },
+  {
+    "text": "report_surgery ecg date biometric clinic authorization bmi temperature",
+    "label": "care_delivery"
+  },
+  {
+    "text": "ods_ticket plan array passport voucher downgrade exchange",
+    "label": "service_delivery"
+  },
+  {
+    "text": "rpt_bill history json name imaging gp copay bed",
+    "label": "care_delivery"
+  },
+  {
+    "text": "table_vpa chargeback string health disbursement merchant order payout wallet",
+    "label": "payments"
+  },
+  {
+    "text": "summary_reporting ifsc_code float device payroll reimbursement vendor resignation emp",
+    "label": "employment"
+  },
+  {
+    "text": "stage_bank reconcile string demographic recurring disbursement auth_code sender",
+    "label": "payments"
+  },
+  {
+    "text": "dw_razorpay UTR float device currency stripe billing paytm",
+    "label": "payments"
+  },
+  {
+    "text": "summary_mandate recurring string name chargeback upi txn_id razorpay rtgs",
+    "label": "payments"
+  },
+  {
+    "text": "dim_ward pathology array location physician patient discharge doctor",
+    "label": "care_delivery"
+  },
+  {
+    "text": "stage_entity_type consent datetime authentication tax_id verification liveness identity dl",
+    "label": "kyc"
+  },
+  {
+    "text": "rpt_audience campaign numeric phone open_rate banner churn",
+    "label": "marketing"
+  },
+  {
+    "text": "summary_clock_out termination integer biometric holiday ctc clock_in",
+    "label": "employment"
+  },
+  {
+    "text": "mart_emi auth uuid id_number razorpay chargeback capture merchant",
+    "label": "payments"
+  },
+  {
+    "text": "dim_referral_code cancel json aadhaar notification_pref order registration",
+    "label": "service_delivery"
+  },
+  {
+    "text": "raw_llpin screening array health onboarding selfie identity",
+    "label": "kyc"
+  },
+  {
+    "text": "dw_checkout chargeback decimal email invoice razorpay settle subscription debit",
+    "label": "payments"
+  },
+  {
+    "text": "stg_ctr campaign varchar authentication conversion roas abandon",
+    "label": "marketing"
+  },
+  {
+    "text": "summary_ad utm_source decimal device attribution unsubscribe ad",
+    "label": "marketing"
+  },
+  {
+    "text": "table_doctor rx text financial surgery ct diagnostic temperature",
+    "label": "care_delivery"
+  },
+  {
+    "text": "fact_session sms_pref json name issue sms_pref feedback customer",
+    "label": "service_delivery"
+  },
+  {
+    "text": "fact_aadhaar selfie uuid financial incorporation crs limit fatca",
+    "label": "kyc"
+  },
+  {
+    "text": "stage_uan earned nvarchar device aadhaar_num ot epf performance",
+    "label": "employment"
+  },
+  {
+    "text": "summary_wfh bank_ac float device human_resource department team hierarchy rating",
+    "label": "employment"
+  },
+  {
+    "text": "table_team freelancer json biometric shift human_resource designation earned compensation",
+    "label": "employment"
+  },
+  {
+    "text": "stg_procedure icu text aadhaar insurance spo2 pathology weight mri",
+    "label": "care_delivery"
+  },
+  {
+    "text": "stage_utm_term utm_term datetime demographic advertisement like utm_medium",
+    "label": "marketing"
+  },
+  {
+    "text": "ods_disbursement bank decimal id_number imps txn payment",
+    "label": "payments"
+  },
+  {
+    "text": "dwh_statement preference datetime aadhaar statement device reactivation churn consent_pref",
+    "label": "service_delivery"
+  },
+  {
+    "text": "mart_pathology drug date health lab booking icu icd11",
+    "label": "care_delivery"
+  },
+  {
+    "text": "raw_utm_term ltv datetime health share in_app ctr watch_time",
+    "label": "marketing"
+  },
+  {
+    "text": "analytics_sick promotion bigint passport bank_ac epf hra attendance earned",
+    "label": "employment"
+  },
+  {
+    "text": "raw_medication rx double authentication claim ecg vitals specialist mri",
+    "label": "care_delivery"
+  },
+  {
+    "text": "analytics_dni email float pan variant targeting campaign",
+    "label": "marketing"
+  },
+  {
+    "text": "stage_specialist drug uuid email condition treatment dosage icd11",
+    "label": "care_delivery"
+  },
+  {
+    "text": "rpt_form_a tan decimal name tier voter kyc_tier",
+    "label": "kyc"
+  },
+  {
+    "text": "report_browser session datetime device push_pref registration enterprise",
+    "label": "service_delivery"
+  },
+  {
+    "text": "raw_firing leave double name hr deduction termination firing",
+    "label": "employment"
+  },
+  {
+    "text": "stage_beneficiary refund array aadhaar receiver capture cart subscription payment",
+    "label": "payments"
+  },
+  {
+    "text": "dwh_churn exchange float id_number consent_pref sms_pref voucher session",
+    "label": "service_delivery"
+  },
+  {
+    "text": "fact_exchange pincode text health user shipping os",
+    "label": "service_delivery"
+  },
+  {
+    "text": "tbl_freelancer contractor float none ot holiday employee role",
+    "label": "employment"
+  },
+  {
+    "text": "ods_kyc llpin char authentication form_a incorporation business_type aadhaar pan",
+    "label": "kyc"
+  },
+  {
+    "text": "dw_razorpay upi datetime location subscription autopay account cart rrn",
+    "label": "payments"
+  },
+  {
+    "text": "stg_limit ein float pan customer kyc_tier tier",
+    "label": "kyc"
+  },
+  {
+    "text": "summary_email audience uuid device utm_medium click targeting recommendation personalization",
+    "label": "marketing"
+  },
+  {
+    "text": "dwh_reporting okr text health confirmation rating increment",
+    "label": "employment"
+  },
+  {
+    "text": "ods_issue referral_code text biometric cancel token reward os",
+    "label": "service_delivery"
+  },
+  {
+    "text": "table_referral_code redeem text none status free plan",
+    "label": "service_delivery"
+  },
+  {
+    "text": "report_segment exclusion varchar location utm_campaign abandon cpa ad",
+    "label": "marketing"
+  },
+  {
+    "text": "stg_retention click_rate integer demographic creative ad cpc lift",
+    "label": "marketing"
+  },
+  {
+    "text": "analytics_free receipt boolean demographic refresh referral_code reward",
+    "label": "service_delivery"
+  },
+  {
+    "text": "raw_capture auth_code datetime pan capture gateway txn_id credit",
+    "label": "payments"
+  },
+  {
+    "text": "rpt_password voucher varchar passport cancel language receipt",
+    "label": "service_delivery"
+  },
+  {
+    "text": "stg_timezone exchange string aadhaar delivery points timezone signup",
+    "label": "service_delivery"
+  },
+  {
+    "text": "rpt_chargeback autopay json name rrn recurring wallet amount",
+    "label": "payments"
+  },
+  {
+    "text": "dwh_loyalty referral_code json health user notification_pref redeem voucher",
+    "label": "service_delivery"
+  },
+  {
+    "text": "tbl_emi imps decimal email payout reconciliation recurring balance",
+    "label": "payments"
+  },
+  {
+    "text": "analytics_dl cin char none biometric aof business_type",
+    "label": "kyc"
+  },
+  {
+    "text": "raw_remote increment nvarchar id_number deduction bonus vendor",
+    "label": "employment"
+  },
+  {
+    "text": "fact_subscription receipt uuid demographic statement tracking password language",
+    "label": "service_delivery"
+  },
+  {
+    "text": "stage_email control bigint authentication comment utm_source watch_time",
+    "label": "marketing"
+  },
+  {
+    "text": "ods_imaging appointment timestamp id_number clinic history coverage specialist",
+    "label": "care_delivery"
+  },
+  {
+    "text": "dim_ifsc chargeback uuid location paytm imps wallet ifsc balance",
+    "label": "payments"
+  },
+  {
+    "text": "stage_pincode location double location refund wishlist points",
+    "label": "service_delivery"
+  },
+  {
+    "text": "table_ct copay string name claim copay patient",
+    "label": "care_delivery"
+  },
+  {
+    "text": "summary_lift click double aadhaar conversion discount cpm unsubscribe",
+    "label": "marketing"
+  },
+  {
+    "text": "summary_support refund integer phone coupon login complaint notification_pref tier",
+    "label": "service_delivery"
+  },
+  {
+    "text": "dwh_mandate chargeback varchar none balance credit stripe",
+    "label": "payments"
+  },
+  {
+    "text": "mart_notification unsubscribe text pan cpa ctr segment coupon",
+    "label": "marketing"
+  },
+  {
+    "text": "rpt_ctr advertisement datetime none in_app control persona",
+    "label": "marketing"
+  },
+  {
+    "text": "dim_aof cin numeric biometric tax aml verify",
+    "label": "kyc"
+  },
+  {
+    "text": "agg_discount consent decimal health cart_abandon clv abandon",
+    "label": "marketing"
+  },
+  {
+    "text": "ods_screening entity_type boolean phone passport consent ein ekyc_status limit",
+    "label": "kyc"
+  },
+  {
+    "text": "table_campaign email nvarchar location cpm retention churn sms audience",
+    "label": "marketing"
+  },
+  {
+    "text": "raw_rating feedback uuid pan email_pref resolution subscription plan",
+    "label": "service_delivery"
+  },
+  {
+    "text": "tbl_mandate subscription decimal biometric transaction settlement vpa",
+    "label": "payments"
+  },
+  {
+    "text": "rpt_utm_medium campaign string location whatsapp ctr cart_abandon",
+    "label": "marketing"
+  },
+  {
+    "text": "dw_llpin liveness double location tax_id aadhaar ekyc_status kyc_status",
+    "label": "kyc"
+  },
+  {
+    "text": "rpt_claim surgery date authentication treatment icd procedure chemist referrer",
+    "label": "care_delivery"
+  },
+  {
+    "text": "stage_reimbursement tds char passport appraisal consultant team hierarchy remote",
+    "label": "employment"
+  },
+  {
+    "text": "dw_ifsc chargeback integer financial merchant order_id amount",
+    "label": "payments"
+  },
+  {
+    "text": "stage_paytm balance boolean id_number beneficiary currency order_id autopay",
+    "label": "payments"
+  },
+  {
+    "text": "rpt_therapy icd11 double device referral prognosis ward ultrasound",
+    "label": "care_delivery"
+  },
+  {
+    "text": "dim_refresh issue double device plan email_pref refresh notification_pref invoice",
+    "label": "service_delivery"
+  },
+  {
+    "text": "analytics_points account bigint biometric redeem wishlist otp subscription feedback",
+    "label": "service_delivery"
+  },
+  {
+    "text": "stage_adhar voter text biometric consent ekyc_status dl kyc_tier",
+    "label": "kyc"
+  },
+  {
+    "text": "fact_tax_id entity_type json aadhaar risk_tier liveness verification",
+    "label": "kyc"
+  },
+  {
+    "text": "agg_coupon experiment array biometric lookalike funnel impression",
+    "label": "marketing"
+  },
+  {
+    "text": "mart_order mandate date demographic receiver payer credit upi stripe",
+    "label": "payments"
+  },
+  {
+    "text": "table_worker manager json id_number gross timesheet esi",
+    "label": "employment"
+  },
+  {
+    "text": "summary_vpa wallet text biometric void installment debit reconcile UTR",
+    "label": "payments"
+  },
+  {
+    "text": "analytics_emergency admission decimal authentication procedure icd11 pharmacy",
+    "label": "care_delivery"
+  },
+  {
+    "text": "rpt_bank_ac bonus char email uan employee salary sick casual",
+    "label": "employment"
+  },
+  {
+    "text": "stage_ctr ltv varchar passport utm_campaign dni experiment like creative",
+    "label": "marketing"
+  },
+  {
+    "text": "table_user wishlist char authentication profile support exchange address",
+    "label": "service_delivery"
+  },
+  {
+    "text": "stg_vendor employee json device exit contractor bank_ac",
+    "label": "employment"
+  },
+  {
+    "text": "fact_personalization push decimal email banner recommendation email advertisement",
+    "label": "marketing"
+  },
+  {
+    "text": "raw_bank_ac reporting double id_number human_resource hra team employee variable",
+    "label": "employment"
+  },
+  {
+    "text": "report_churn cpm numeric device impression utm_content ad clv creative",
+    "label": "marketing"
+  },
+  {
+    "text": "table_mandate order uuid none account settle mandate phonepe stripe",
+    "label": "payments"
+  },
+  {
+    "text": "mart_leave net integer location human_resource probation compensation ot salary",
+    "label": "employment"
+  },
+  {
+    "text": "fact_promotion team nvarchar authentication human_resource emp hra consultant confirmation",
+    "label": "employment"
+  },
+  {
+    "text": "tbl_payout capture uuid aadhaar reconcile order_id upi amount reconciliation",
+    "label": "payments"
+  },
+  {
+    "text": "stg_installment amount integer device subscription vpa chargeback transaction",
+    "label": "payments"
+  },
+  {
+    "text": "analytics_funnel utm_term array authentication watch_time click discount push utm_source",
+    "label": "marketing"
+  },
+  {
+    "text": "table_merchant razorpay uuid name ledger subscription ifsc void",
+    "label": "payments"
+  },
+  {
+    "text": "dw_shift contractor float phone human_resource casual net wfh",
+    "label": "employment"
+  },
+  {
+    "text": "dw_cart location decimal financial downgrade feedback login enterprise notification_pref",
+    "label": "service_delivery"
+  },
+  {
+    "text": "ods_status support nvarchar passport redeem invoice sms_pref downgrade",
+    "label": "service_delivery"
+  },
+  {
+    "text": "stage_kyc aadhaar datetime none verify dl account_type",
+    "label": "kyc"
+  },
+  {
+    "text": "mart_password device integer biometric review profile rating",
+    "label": "service_delivery"
+  },
+  {
+    "text": "stg_ab_test consent decimal demographic recommendation email engagement",
+    "label": "marketing"
+  },
+  {
+    "text": "stage_procedure disease float biometric ct treatment discharge pathology",
+    "label": "care_delivery"
+  },
+  {
+    "text": "rpt_prescription icu float biometric specialist icd authorization physician",
+    "label": "care_delivery"
+  },
+  {
+    "text": "table_hospital treatment double id_number copay medication treatment procedure",
+    "label": "care_delivery"
+  },
+  {
+    "text": "tbl_lookalike whatsapp nvarchar location engagement recommendation campaign",
+    "label": "marketing"
+  },
+  {
+    "text": "agg_autopay settlement timestamp passport razorpay invoice amount subscription txn_id",
+    "label": "payments"
+  },
+  {
+    "text": "analytics_therapy preauth varchar health admission treatment emergency weight",
+    "label": "care_delivery"
+  },
+  {
+    "text": "table_email utm_content boolean id_number acquisition persona preference ctr click",
+    "label": "marketing"
+  },
+  {
+    "text": "dim_rating deduction array device staff gross reporting org personnel",
+    "label": "employment"
+  },
+  {
+    "text": "analytics_user referral_code decimal phone account feedback geo subscription",
+    "label": "service_delivery"
+  },
+  {
+    "text": "mart_consent_pref rating decimal email loyalty voucher refund",
+    "label": "service_delivery"
+  },
+  {
+    "text": "dw_department hr date aadhaar timesheet tds hra shift employee",
+    "label": "employment"
+  },
+  {
+    "text": "stage_okr firing text phone team tds gross staff",
+    "label": "employment"
+  },
+  {
+    "text": "mart_ab_test targeting string id_number like lift ab_test personalization cohort",
+    "label": "marketing"
+  },
+  {
+    "text": "report_installment rrn datetime device chargeback rtgs merchant",
+    "label": "payments"
+  },
+  {
+    "text": "stage_receipt geo date health shipping wishlist churn premium",
+    "label": "service_delivery"
+  },
+  {
+    "text": "report_pto uan integer id_number increment appraisal bank_ac freelancer",
+    "label": "employment"
+  },
+  {
+    "text": "ods_rating promotion datetime device staff department increment",
+    "label": "employment"
+  },
+  {
+    "text": "rpt_adhar tax_id float device account_type pep screening verification",
+    "label": "kyc"
+  },
+  {
+    "text": "stg_upgrade push_pref float device timezone push_pref exchange consent_pref plan",
+    "label": "service_delivery"
+  },
+  {
+    "text": "table_risk_tier business_type json aadhaar form_a kyc onboarding kyc_status",
+    "label": "kyc"
+  },
+  {
+    "text": "raw_language complaint uuid financial consent_pref account delivery timezone signup",
+    "label": "service_delivery"
+  },
+  {
+    "text": "summary_surgery emergency nvarchar id_number xray booking lab ct insurance",
+    "label": "care_delivery"
+  },
+  {
+    "text": "agg_voucher support integer location token browser notification_pref statement reward",
+    "label": "service_delivery"
+  },
+  {
+    "text": "dwh_doctor bmi bigint none icu condition admission",
+    "label": "care_delivery"
+  },
+  {
+    "text": "table_aadhaar adhar varchar location tan selfie ekyc",
+    "label": "kyc"
+  },
+  {
+    "text": "stg_funnel discount datetime id_number utm_term unsubscribe cohort engagement",
+    "label": "marketing"
+  },
+  {
+    "text": "analytics_cpm advertisement uuid financial open_rate in_app lookalike",
+    "label": "marketing"
+  },
+  {
+    "text": "dim_utm_term cart_abandon timestamp device recommendation cohort comment notification",
+    "label": "marketing"
+  },
+  {
+    "text": "tbl_ledger credit string id_number capture currency recurring payment cart",
+    "label": "payments"
+  },
+  {
+    "text": "raw_refresh refund json none location subscription enterprise voucher",
+    "label": "service_delivery"
+  },
+  {
+    "text": "mart_icu diagnostic text phone bp referrer vitals surgery icd",
+    "label": "care_delivery"
+  },
+  {
+    "text": "summary_subscription void string aadhaar balance chargeback gateway mandate",
+    "label": "payments"
+  },
+  {
+    "text": "mart_tds resignation string phone esi emp vendor",
+    "label": "employment"
+  },
+  {
+    "text": "summary_rrn settle integer passport sender amount gateway",
+    "label": "payments"
+  },
+  {
+    "text": "rpt_consent dedupe timestamp location incorporation ekyc_status fatca",
+    "label": "kyc"
+  },
+  {
+    "text": "tbl_bp referrer text email heart_rate claim doctor appointment diagnosis",
+    "label": "care_delivery"
+  },
+  {
+    "text": "dim_aml aadhaar date name selfie tax kyc",
+    "label": "kyc"
+  },
+  {
+    "text": "report_radiology pathology text demographic hospital condition discharge dosage",
+    "label": "care_delivery"
+  },
+  {
+    "text": "agg_open_rate sms boolean financial impression lift click exclusion conversion",
+    "label": "marketing"
+  },
+  {
+    "text": "mart_redeem timezone date health downgrade password setting",
+    "label": "service_delivery"
+  },
+  {
+    "text": "rpt_pan ekyc json name ekyc liveness aml tax_id kyc",
+    "label": "kyc"
+  },
+  {
+    "text": "raw_engagement roas numeric authentication discount roas churn click_rate cohort",
+    "label": "marketing"
+  },
+  {
+    "text": "ods_fingerprint pep boolean biometric dedupe gstin kyc ekyc",
+    "label": "kyc"
+  },
+  {
+    "text": "analytics_suppression cohort uuid financial impression utm_term clv",
+    "label": "marketing"
+  },
+  {
+    "text": "report_utm_source view integer passport unsubscribe open_rate utm_content conversion",
+    "label": "marketing"
+  },
+  {
+    "text": "agg_pep face date aadhaar face kyc llpin",
+    "label": "kyc"
+  },
+  {
+    "text": "mart_lookalike open_rate nvarchar phone watch_time share campaign funnel cohort",
+    "label": "marketing"
+  },
+  {
+    "text": "mart_churn subscription double demographic push_pref refresh delivery language",
+    "label": "service_delivery"
+  },
+  {
+    "text": "analytics_tax account_type varchar authentication incorporation tan document entity_type tax_id",
+    "label": "kyc"
+  },
+  {
+    "text": "ods_kyc_status kyc uuid pan license form_a verify aof video",
+    "label": "kyc"
+  },
+  {
+    "text": "mart_whatsapp cohort timestamp passport advertisement lift click_rate control abandon",
+    "label": "marketing"
+  },
+  {
+    "text": "table_ticket sms_pref string email login loyalty preference receipt tier",
+    "label": "service_delivery"
+  },
+  {
+    "text": "dw_wishlist exchange numeric pan resolution preference issue address",
+    "label": "service_delivery"
+  },
+  {
+    "text": "tbl_sick freelancer text financial payroll designation hierarchy role clock_in",
+    "label": "employment"
+  },
+  {
+    "text": "fact_allowance compensation array pan kpi clock_out human_resource",
+    "label": "employment"
+  },
+  {
+    "text": "summary_refund_id rrn date health order billing auth autopay rrn",
+    "label": "payments"
+  },
+  {
+    "text": "analytics_cin selfie date email selfie tax onboard risk_tier consent",
+    "label": "kyc"
+  },
+  {
+    "text": "report_lookalike experiment array pan exclusion acquisition clv utm_term cpa",
+    "label": "marketing"
+  },
+  {
+    "text": "raw_tax_id ekyc_status datetime financial account_type fingerprint aml caml",
+    "label": "kyc"
+  },
+  {
+    "text": "dw_cohort cpc nvarchar biometric lift consent coupon offer click",
+    "label": "marketing"
+  },
+  {
+    "text": "raw_admission clinic array demographic disease icd referrer weight referral",
+    "label": "care_delivery"
+  },
+  {
+    "text": "stg_currency payment varchar health UTR upi installment txn_id",
+    "label": "payments"
+  },
+  {
+    "text": "dim_verification entity_type double location fraud_score verify crs fatca",
+    "label": "kyc"
+  },
+  {
+    "text": "agg_user ip decimal device resolution tracking cart registration os",
+    "label": "service_delivery"
+  },
+  {
+    "text": "dim_ledger autopay varchar demographic order account autopay amount",
+    "label": "payments"
+  },
+  {
+    "text": "stg_dl business_type array none crs pep tax_id video",
+    "label": "kyc"
+  },
+  {
+    "text": "summary_reward email_pref uuid email cancel signup free redeem",
+    "label": "service_delivery"
+  },
+  {
+    "text": "analytics_limit tier datetime phone dl cin entity_type business_type kyc_status",
+    "label": "kyc"
+  },
+  {
+    "text": "dwh_roas audience bigint demographic preference suppression consent ab_test",
+    "label": "marketing"
+  },
+  {
+    "text": "dw_weight icd varchar financial booking mri claim diagnosis",
+    "label": "care_delivery"
+  },
+  {
+    "text": "stage_aadhaar_num promotion double device clock_out hra salary pan_num",
+    "label": "employment"
+  },
+  {
+    "text": "dw_registration receipt boolean email complaint cart ticket",
+    "label": "service_delivery"
+  },
+  {
+    "text": "dwh_suppression retention integer pan creative campaign audience utm_term attribution",
+    "label": "marketing"
+  },
+  {
+    "text": "ods_booking condition text aadhaar allergy prognosis icd",
+    "label": "care_delivery"
+  },
+  {
+    "text": "dwh_upi imps decimal passport imps vpa balance settlement refund",
+    "label": "payments"
+  },
+  {
+    "text": "tbl_payout txn_id uuid financial settle wallet invoice payer",
+    "label": "payments"
+  },
+  {
+    "text": "mart_timesheet aadhaar_num integer passport department designation compensation ifsc_code shift",
+    "label": "employment"
+  },
+  {
+    "text": "mart_epf payroll float phone personnel increment termination gross earned",
+    "label": "employment"
+  },
+  {
+    "text": "dw_debit wallet bigint health upi chargeback rtgs currency",
+    "label": "payments"
+  },
+  {
+    "text": "summary_liveness ekyc_status char financial selfie verify verification llpin screening",
+    "label": "kyc"
+  },
+  {
+    "text": "table_push_pref preference timestamp id_number account browser session",
+    "label": "service_delivery"
+  },
+  {
+    "text": "dw_bank_ac shift uuid authentication shift resignation department contractor remote",
+    "label": "employment"
+  },
+  {
+    "text": "ods_txn payout bigint passport currency txn_id settlement checkout",
+    "label": "payments"
+  },
+  {
+    "text": "dwh_neft debit integer health neft transaction refund",
+    "label": "payments"
+  },
+  {
+    "text": "dwh_setting notification_pref array biometric churn otp upgrade return voucher",
+    "label": "service_delivery"
+  },
+  {
+    "text": "table_view click string none ctr cohort audience clv variant",
+    "label": "marketing"
+  },
+  {
+    "text": "table_tracking customer numeric passport upgrade downgrade otp",
+    "label": "service_delivery"
+  },
+  {
+    "text": "report_rx lab timestamp location temperature bill mri ct",
+    "label": "care_delivery"
+  },
+  {
+    "text": "table_treatment vitals uuid pan referrer icu icd11 drug copay",
+    "label": "care_delivery"
+  },
+  {
+    "text": "summary_view acquisition nvarchar device comment suppression utm_content",
+    "label": "marketing"
+  },
+  {
+    "text": "stg_gstin liveness string biometric dl pep biometric voter",
+    "label": "kyc"
+  },
+  {
+    "text": "table_heart_rate therapy string aadhaar admission disease medication chemist surgery",
+    "label": "care_delivery"
+  },
+  {
+    "text": "mart_email ctr text email funnel abandon click_rate open_rate engagement",
+    "label": "marketing"
+  },
+  {
+    "text": "fact_timezone loyalty double email language sms_pref downgrade",
+    "label": "service_delivery"
+  },
+  {
+    "text": "mart_rtgs mandate numeric none autopay chargeback payee",
+    "label": "payments"
+  },
+  {
+    "text": "table_ledger installment date authentication payment transaction beneficiary checkout",
+    "label": "payments"
+  },
+  {
+    "text": "dim_geo device double passport review tier registration referral_code",
+    "label": "service_delivery"
+  },
+  {
+    "text": "analytics_video aml date name document form_a account_type crs risk_tier",
+    "label": "kyc"
+  },
+  {
+    "text": "agg_voter pan timestamp health license aml crs ekyc entity_type",
+    "label": "kyc"
+  },
+  {
+    "text": "rpt_personnel variable text none shift compensation holiday",
+    "label": "employment"
+  },
+  {
+    "text": "tbl_variable performance json health firing okr designation",
+    "label": "employment"
+  },
+  {
+    "text": "stage_browser setting nvarchar health cancel setting refund complaint",
+    "label": "service_delivery"
+  },
+  {
+    "text": "agg_tan onboard boolean phone selfie dl tax_id identity",
+    "label": "kyc"
+  }
+]

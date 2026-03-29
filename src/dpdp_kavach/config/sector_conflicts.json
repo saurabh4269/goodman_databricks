@@ -1,0 +1,22 @@
+[
+  {
+    "sector": "fintech",
+    "regulation": "RBI KYC Direction 2016",
+    "regulation_section": "Record Management",
+    "dpdp_section": "Sec 8(7)",
+    "conflict_type": "sector_reg_stricter",
+    "summary": "RBI retention obligations may require longer storage than DPDP purpose-completion deletion.",
+    "resolution": "Split data into active vs legal archive partitions; restrict archive access and document legal basis.",
+    "source": "Master Direction - KYC (Updated Aug 14, 2025)"
+  },
+  {
+    "sector": "healthtech",
+    "regulation": "Telemedicine Practice Guidelines 2020",
+    "regulation_section": "Records and documentation",
+    "dpdp_section": "Sec 8 + Rule 6",
+    "conflict_type": "advisory",
+    "summary": "Medical record continuity expectations require documented retention and secured access controls.",
+    "resolution": "Apply role-based access, audit logs, and retention schedule with purpose map.",
+    "source": "Telemedicine Practice Guidelines (25 March 2020)"
+  }
+]

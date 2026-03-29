@@ -1,0 +1,18 @@
+bundle:
+  name: dpdp-kavach
+
+resources:
+  apps:
+    dpdp-kavach:
+      name: dpdp-kavach
+      source_code_path: .
+      description: DPDP compliance intelligence app for Bharat Bricks hackathon
+      config:
+        command:
+          - bash
+          - -lc
+          - PYTHONPATH=.:src uvicorn app.main:app --host 0.0.0.0 --port ${DATABRICKS_APP_PORT:-8000}
+
+targets:
+  dev:
+    default: true

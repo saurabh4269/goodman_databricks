@@ -1,0 +1,113 @@
+[
+  {
+    "pii_category": "aadhaar",
+    "common_column_names": ["aadhaar", "aadhaar_no", "aadhar", "uid"],
+    "regex": "\\b\\d{4}\\s?\\d{4}\\s?\\d{4}\\b",
+    "sensitivity": "sensitive",
+    "sections": ["Sec5", "Sec6", "Sec8", "Sec9"],
+    "purpose_hints": ["kyc", "identity"]
+  },
+  {
+    "pii_category": "pan",
+    "common_column_names": ["pan", "pan_number", "tax_id"],
+    "regex": "\\b[A-Z]{5}[0-9]{4}[A-Z]{1}\\b",
+    "sensitivity": "sensitive",
+    "sections": ["Sec5", "Sec6", "Sec8"],
+    "purpose_hints": ["kyc", "tax"]
+  },
+  {
+    "pii_category": "mobile_number",
+    "common_column_names": ["phone", "mobile", "mobile_number", "contact_no"],
+    "regex": "\\b(?:\\+91[- ]?)?[6-9]\\d{9}\\b",
+    "sensitivity": "personal",
+    "sections": ["Sec5", "Sec6", "Sec8"],
+    "purpose_hints": ["communication", "otp"]
+  },
+  {
+    "pii_category": "email",
+    "common_column_names": ["email", "email_id", "mail"],
+    "regex": "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}",
+    "sensitivity": "personal",
+    "sections": ["Sec5", "Sec6", "Sec8"],
+    "purpose_hints": ["communication"]
+  },
+  {
+    "pii_category": "dob",
+    "common_column_names": ["dob", "date_of_birth", "birth_date", "age"],
+    "regex": "\\b(19|20)\\d{2}-\\d{2}-\\d{2}\\b",
+    "sensitivity": "personal",
+    "sections": ["Sec5", "Sec6", "Sec8", "Sec9"],
+    "purpose_hints": ["age_verification"]
+  },
+  {
+    "pii_category": "health_data",
+    "common_column_names": ["diagnosis", "condition", "medical", "prescription", "bp", "blood_sugar"],
+    "regex": "",
+    "sensitivity": "sensitive",
+    "sections": ["Sec5", "Sec6", "Sec8"],
+    "purpose_hints": ["care_delivery"]
+  },
+  {
+    "pii_category": "financial_data",
+    "common_column_names": ["utr", "ifsc", "account_number", "upi", "transaction_amount", "card_last4"],
+    "regex": "",
+    "sensitivity": "sensitive",
+    "sections": ["Sec5", "Sec6", "Sec8"],
+    "purpose_hints": ["payments", "reconciliation"]
+  },
+  {
+    "pii_category": "children_data",
+    "common_column_names": ["guardian_name", "student", "minor", "school", "parent_contact"],
+    "regex": "",
+    "sensitivity": "sensitive",
+    "sections": ["Sec5", "Sec6", "Sec8", "Sec9"],
+    "purpose_hints": ["education", "child_service"]
+  },
+  {
+    "pii_category": "name",
+    "common_column_names": [
+      "first_name", "firstname", "fname", "f_name", "given_name",
+      "last_name", "lastname", "lname", "l_name", "surname", "sur_name",
+      "full_name", "fullname", "name", "customer_name", "user_name",
+      "username", "employee_name", "holder_name", "card_holder",
+      "mother_name", "father_name", "spouse_name", "nominee_name",
+      "beneficiary_name", "contact_person", "contact_name"
+    ],
+    "regex": "",
+    "sensitivity": "personal",
+    "sections": ["Sec5", "Sec6", "Sec8"],
+    "purpose_hints": ["kyc", "identity", "service_delivery"]
+  },
+  {
+    "pii_category": "identifier",
+    "common_column_names": [
+      "id_number", "id_no", "idnum", "identification_no",
+      "customer_id", "user_id", "account_id", "member_id",
+      "registration_no", "reg_no", "roll_no", "enrollment_no",
+      "employee_id", "emp_id", "staff_id", "student_id",
+      "serial_no", "serial_number", "sr_no", "srno",
+      "ref_id", "reference_id", "case_id", "ticket_id",
+      "uuid", "unique_id", "client_id", "participant_id"
+    ],
+    "regex": "",
+    "sensitivity": "personal",
+    "sections": ["Sec5", "Sec6", "Sec8"],
+    "purpose_hints": ["identity", "service_delivery", "record_linking"]
+  },
+  {
+    "pii_category": "address",
+    "common_column_names": [
+      "address", "street", "lane", "road", "area", "locality",
+      "city", "town", "village", "district", "state", "region",
+      "country", "pincode", "postal_code", "zipcode", "zip_code",
+      "po_box", "pobox", "house_no", "house_number", "flat_no",
+      "building", "landmark", "residence", "permanent_address",
+      "communication_address", "billing_address", "shipping_address",
+      "registered_address", "office_address", "residential_address"
+    ],
+    "regex": "",
+    "sensitivity": "personal",
+    "sections": ["Sec5", "Sec6", "Sec8"],
+    "purpose_hints": ["service_delivery", "kyc", "communication"]
+  }
+]
