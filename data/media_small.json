@@ -1,0 +1,5 @@
+[
+  {"user_id": "USR001", "full_name": "Rohan Chatterjee", "email": "rohan.c@email.com", "phone": "9876543210", "city": "Kolkata", "subscribed": true},
+  {"user_id": "USR002", "full_name": "Ishita Banerjee", "email": "ishita.b@email.com", "phone": "9988776655", "city": "Mumbai", "subscribed": false},
+  {"user_id": "USR003", "full_name": "Aditya Pillai", "email": "aditya.p@email.com", "phone": "9123456789", "city": "Kochi", "subscribed": true}
+]

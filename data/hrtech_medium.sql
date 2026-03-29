@@ -1,0 +1,80 @@
+CREATE TABLE employees (
+  emp_id STRING,
+  full_name STRING,
+  first_name STRING,
+  last_name STRING,
+  email STRING,
+  phone STRING,
+  alternate_phone STRING,
+  date_of_birth DATE,
+  age INT,
+  gender STRING,
+  marital_status STRING,
+  department STRING,
+  designation STRING,
+  manager_name STRING,
+  date_of_joining DATE,
+  confirmation_date DATE,
+  employment_type STRING,
+  location STRING,
+  pan_no STRING,
+  aadhaar_no STRING,
+  pf_no STRING,
+  uan_no STRING,
+  esic_no STRING,
+  bank_ac_no STRING,
+  ifsc_code STRING,
+  blood_group STRING,
+  emergency_contact_name STRING,
+  emergency_contact_phone STRING,
+  emergency_contact_relation STRING,
+  blood_pressure STRING,
+  allergies TEXT,
+  status STRING
+);
+
+CREATE TABLE salary (
+  salary_id STRING,
+  emp_id STRING,
+  emp_name STRING,
+  month INT,
+  year INT,
+  basic_salary DECIMAL(12,2),
+  hra DECIMAL(10,2),
+  allowances DECIMAL(8,2),
+  deductions DECIMAL(8,2),
+  pf_employee DECIMAL(8,2),
+  esic_employee DECIMAL(8,2),
+  tds DECIMAL(8,2),
+  net_salary DECIMAL(12,2),
+  payment_mode STRING,
+  bank_ac_no STRING,
+  utr_no STRING,
+  payment_date DATE,
+  processed_by STRING
+);
+
+CREATE TABLE leaves (
+  leave_id STRING,
+  emp_id STRING,
+  leave_type STRING,
+  from_date DATE,
+  to_date DATE,
+  days_count DECIMAL(4,1),
+  reason TEXT,
+  status STRING,
+  approved_by STRING,
+  approved_at TIMESTAMP
+);
+
+CREATE TABLE performance_reviews (
+  review_id STRING,
+  emp_id STRING,
+  reviewer_name STRING,
+  review_period STRING,
+  rating INT,
+  strengths TEXT,
+  areas_for_improvement TEXT,
+  goals TEXT,
+  created_at TIMESTAMP
+);

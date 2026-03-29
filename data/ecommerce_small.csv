@@ -1,0 +1,4 @@
+order_id,customer_name,email,phone,product_name,quantity,price,payment_mode,order_status,order_date
+ORD001,Neha Joshi,neha.j@email.com,9876543210,Wireless Mouse,2,599.00,UPI,Delivered,2024-11-10
+ORD002,Arun Mehta,arun.m@email.com,9988776655,USB-C Cable,1,299.00,Card,Shipped,2024-11-12
+ORD003,Pooja Desai,pooja.d@email.com,9123456789,Laptop Stand,1,1299.00,Net Banking,Processing,2024-11-14

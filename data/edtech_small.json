@@ -1,0 +1,5 @@
+[
+  {"student_id": "S001", "full_name": "Arjun Reddy", "email": "arjun.reddy@student.edu", "phone": "9876543210", "date_of_birth": "2010-05-12", "guardian_name": "Venkat Reddy", "guardian_phone": "9876500001", "classroom": "Grade 5A", "enrollment_date": "2024-04-01"},
+  {"student_id": "S002", "full_name": "Sneha Iyer", "email": "sneha.iyer@student.edu", "phone": "9988776655", "date_of_birth": "2009-08-30", "guardian_name": "Ravi Iyer", "guardian_phone": "9988001122", "classroom": "Grade 6B", "enrollment_date": "2024-04-01"},
+  {"student_id": "S003", "full_name": "Kabir Singh", "email": "kabir.singh@student.edu", "phone": "9123456789", "date_of_birth": "2011-02-14", "guardian_name": "Amar Singh", "guardian_phone": "9123000001", "classroom": "Grade 4C", "enrollment_date": "2024-04-02"}
+]

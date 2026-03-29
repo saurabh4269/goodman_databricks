@@ -1,0 +1,5 @@
+[
+  {"shipment_id": "SHP001", "shipper_name": "Rajesh Exports", "shipper_phone": "9876543210", "receiver_name": "Sharma & Co.", "receiver_phone": "9988776655", "origin_city": "Mumbai", "destination_city": "Delhi", "weight_kg": 45.5, "shipment_date": "2024-11-10", "status": "In Transit"},
+  {"shipment_id": "SHP002", "shipper_name": "Textile Mart", "shipper_phone": "9988776655", "receiver_name": "Fashion Hub", "receiver_phone": "9123456789", "origin_city": "Surat", "destination_city": "Jaipur", "weight_kg": 120.0, "shipment_date": "2024-11-11", "status": "Delivered"},
+  {"shipment_id": "SHP003", "shipper_name": "Auto Parts Ltd", "shipper_phone": "9123456789", "receiver_name": "Motor Garage", "receiver_phone": "9876500001", "origin_city": "Pune", "destination_city": "Nagpur", "weight_kg": 80.0, "shipment_date": "2024-11-12", "status": "Out for Delivery"}
+]

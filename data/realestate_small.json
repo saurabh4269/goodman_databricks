@@ -1,0 +1,5 @@
+[
+  {"tenant_id": "TN001", "full_name": "Sanjay Pillai", "phone": "9876543210", "email": "sanjay.p@email.com", "property_address": "12A, Green Park, Whitefield, Bangalore", "monthly_rent": 25000.00, "lease_start_date": "2024-01-01", "lease_end_date": "2025-12-31", "security_deposit": 75000.00, "status": "Occupied"},
+  {"tenant_id": "TN002", "full_name": "Anita Deshmukh", "phone": "9988776655", "email": "anita.d@email.com", "property_address": "Flat 304, Sunrise Apartments, Koregaon Park, Pune", "monthly_rent": 35000.00, "lease_start_date": "2024-03-01", "lease_end_date": "2026-02-28", "security_deposit": 105000.00, "status": "Occupied"},
+  {"tenant_id": "TN003", "full_name": "Harish Iyer", "phone": "9123456789", "email": "harish.i@email.com", "property_address": "B-201, Lake View Residency, Anna Nagar, Chennai", "monthly_rent": 18000.00, "lease_start_date": "2023-07-15", "lease_end_date": "2024-07-14", "security_deposit": 54000.00, "status": "Vacating"}
+]

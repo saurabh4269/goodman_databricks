@@ -1,0 +1,5 @@
+[
+  {"patient_id": "P001", "full_name": "Meera Krishnan", "phone_no": "9876543210", "email": "meera.k@email.com", "date_of_birth": "1985-06-15", "gender": "F", "blood_group": "O+", "emergency_contact_name": "Suresh Krishnan", "emergency_contact_phone": "9876500001", "blood_pressure": "120/80", "allergies": "Penicillin"},
+  {"patient_id": "P002", "full_name": "Vikram Nair", "phone_no": "9988776655", "email": "vikram.n@email.com", "date_of_birth": "1990-11-22", "gender": "M", "blood_group": "B+", "emergency_contact_name": "Lakshmi Nair", "emergency_contact_phone": "9988001122", "blood_pressure": "130/85", "allergies": "None"},
+  {"patient_id": "P003", "full_name": "Fatima Khan", "phone_no": "9123456789", "email": "fatima.k@email.com", "date_of_birth": "1978-03-08", "gender": "F", "blood_group": "A+", "emergency_contact_name": "Imran Khan", "emergency_contact_phone": "9123000001", "blood_pressure": "140/90", "allergies": "Sulfa drugs"}
+]

@@ -1,0 +1,81 @@
+CREATE TABLE customers (
+  customer_id STRING,
+  full_name STRING,
+  email STRING,
+  phone STRING,
+  alternate_phone STRING,
+  city STRING,
+  state STRING,
+  pincode STRING,
+  address STRING,
+  landmark STRING,
+  date_of_birth DATE,
+  gender STRING,
+  customer_type STRING,
+  referral_code STRING,
+  referred_by STRING,
+  registered_at TIMESTAMP,
+  last_login_at TIMESTAMP,
+  loyalty_tier STRING,
+  loyalty_points INT
+);
+
+CREATE TABLE orders (
+  order_id STRING,
+  customer_id STRING,
+  order_no STRING,
+  product_name STRING,
+  category STRING,
+  brand STRING,
+  quantity INT,
+  unit_price DECIMAL(10,2),
+  discount DECIMAL(8,2),
+  gst_amount DECIMAL(8,2),
+  total_amount DECIMAL(10,2),
+  payment_mode STRING,
+  payment_status STRING,
+  order_status STRING,
+  delivery_address STRING,
+  delivery_city STRING,
+  delivery_state STRING,
+  delivery_pincode STRING,
+  order_date TIMESTAMP,
+  shipped_at TIMESTAMP,
+  delivered_at TIMESTAMP,
+  cancelled_at TIMESTAMP,
+  cancellation_reason TEXT
+);
+
+CREATE TABLE products (
+  product_id STRING,
+  product_name STRING,
+  category STRING,
+  brand STRING,
+  mrp DECIMAL(10,2),
+  selling_price DECIMAL(10,2),
+  hsn_code STRING,
+  gst_percent INT,
+  stock_qty INT,
+  weight_kg DECIMAL(5,2),
+  seller_name STRING,
+  seller_address STRING,
+  returnable BOOLEAN,
+  return_window_days INT
+);
+
+CREATE TABLE reviews (
+  review_id STRING,
+  customer_id STRING,
+  product_id STRING,
+  order_id STRING,
+  rating INT,
+  title STRING,
+  comment TEXT,
+  pros TEXT,
+  cons TEXT,
+  verified_purchase BOOLEAN,
+  helpful_count INT,
+  created_at TIMESTAMP,
+  seller_response TEXT,
+  seller_response_at TIMESTAMP
+);

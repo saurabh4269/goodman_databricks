@@ -1,0 +1,5 @@
+[
+  {"holder_id": "H001", "full_name": "Sunita Rao", "phone": "9876543210", "email": "sunita.rao@email.com", "date_of_birth": "1980-03-15", "nominee_name": "Kiran Rao", "policy_no": "POL/2024/001234", "policy_type": "Health Insurance", "sum_insured": 500000.00, "premium": 12500.00, "policy_start_date": "2024-01-01", "policy_end_date": "2025-01-01", "status": "Active"},
+  {"holder_id": "H002", "full_name": "Manoj Gupta", "phone": "9988776655", "email": "manoj.g@email.com", "date_of_birth": "1975-07-22", "nominee_name": "Sunita Gupta", "policy_no": "POL/2024/005678", "policy_type": "Term Life", "sum_insured": 1000000.00, "premium": 8500.00, "policy_start_date": "2024-03-01", "policy_end_date": "2034-03-01", "status": "Active"},
+  {"holder_id": "H003", "full_name": "Lakshmi Devi", "phone": "9123456789", "email": "lakshmi.d@email.com", "date_of_birth": "1988-12-05", "nominee_name": "Ravi Kumar", "policy_no": "POL/2023/009012", "policy_type": "Critical Illness", "sum_insured": 250000.00, "premium": 4500.00, "policy_start_date": "2023-06-15", "policy_end_date": "2024-06-15", "status": "Lapsed"}
+]
