@@ -104,9 +104,17 @@ export default function App() {
 
           <label>Sector</label>
           <select value={sector} onChange={(e) => setSector(e.target.value)}>
+            <option value="general">General</option>
             <option value="fintech">Fintech</option>
             <option value="healthtech">Healthtech</option>
-            <option value="general">General</option>
+            <option value="edtech">Edtech</option>
+            <option value="ecommerce">E-commerce</option>
+            <option value="insurance">Insurance</option>
+            <option value="telecom">Telecom</option>
+            <option value="hrtech">HR Tech</option>
+            <option value="realestate">Real Estate</option>
+            <option value="logistics">Logistics</option>
+            <option value="media">Media</option>
           </select>
 
           <label>Language</label>
